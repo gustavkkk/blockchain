@@ -8,3 +8,5 @@
     https://github.com/bitcoin/bitcoin
     https://github.com/bitpay/bitcoind-rpc
     https://github.com/jgarzik/python-bitcoinrpc
+    
+### [guide](https://github.com/bitcoin/bitcoin/tree/master/doc)
