@@ -8,4 +8,4 @@
 
 ### build
 
-     $ sudo apt-get install cmake
+    $ sudo apt-get install cmake
