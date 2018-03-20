@@ -27,6 +27,7 @@
     sudo apt-get install libqrencode-dev
     sudo apt-get install libboost-all-dev
     sudo apt-get install openssl
+    sudo apt-get install libssl-dev
     ./autogen.sh
     ./configure
     make
