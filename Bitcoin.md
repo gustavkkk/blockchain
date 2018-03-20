@@ -41,3 +41,4 @@
     bitcoind
     bitcoin-cli help
     bitcoin-cli gettransaction
+    bitcoin-cli stop
