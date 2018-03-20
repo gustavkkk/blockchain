@@ -40,3 +40,4 @@
 
     bitcoind
     bitcoin-cli help
+    bitcoin-cli gettransaction
