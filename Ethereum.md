@@ -20,6 +20,7 @@
   go
   
     $ sudo apt-get install golang
+    $ apt-get install geth
     $ make geth
     $ make all
     
