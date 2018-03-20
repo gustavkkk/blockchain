@@ -2,7 +2,9 @@
 
 ### [wallet](https://www.ethereum.org/)
 
-    [Windows]()
+    [Release](https://github.com/ethereum/mist/releases/)
+
+    [Windows](https://www.ethereum.org/)
     
     [Ubuntu32](http://ethembedded.com/?page_id=187)
     
