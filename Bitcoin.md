@@ -26,6 +26,7 @@
     sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
     sudo apt-get install libqrencode-dev
     sudo apt-get install libboost-all-dev
+    sudo apt-get install openssl
     ./autogen.sh
     ./configure
     make
