@@ -10,3 +10,11 @@
     https://github.com/jgarzik/python-bitcoinrpc
     
 ### [guide](https://github.com/bitcoin/bitcoin/tree/master/doc)
+
+### build
+
+    ./autogen.sh
+    ./configure
+    make
+    make install # optional
+    sudo apt-get install libdb++-dev
