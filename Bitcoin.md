@@ -15,7 +15,7 @@
     
 ### build
 
-   [*]Ubuntu
+   [*] Ubuntu
    
     sudo apt-get install libdb++-dev
     sudo apt-get install software-properties-common
@@ -30,6 +30,7 @@
     sudo apt-get install libboost-all-dev
     sudo apt-get install openssl
     sudo apt-get install libssl-dev
+    sudo apt-get install libevent-dev
     ./autogen.sh
     ./configure
     make
