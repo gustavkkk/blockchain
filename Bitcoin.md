@@ -35,3 +35,8 @@
     ./configure
     make
     make install # optional
+
+### API
+
+    bitcoind
+    bitcoin-cli help
