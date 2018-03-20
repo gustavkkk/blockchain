@@ -5,3 +5,7 @@
 ### [src](https://github.com/ethereum/cpp-ethereum)   
 
 ### [rpc](https://github.com/ethereum/wiki/wiki/JSON-RPC)
+
+### [build]()
+
+    sudo apt-get install cmake
