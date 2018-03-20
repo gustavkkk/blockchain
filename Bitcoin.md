@@ -11,10 +11,12 @@
     
 ### [guide](https://github.com/bitcoin/bitcoin/tree/master/doc)
 
+   [BerkeleyDB](https://github.com/bitcoin/bitcoin/blob/master/doc/build-openbsd.md)
+    
 ### build
 
+    sudo apt-get install libdb++-dev
     ./autogen.sh
     ./configure
     make
     make install # optional
-    sudo apt-get install libdb++-dev
