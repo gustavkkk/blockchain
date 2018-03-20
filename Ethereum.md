@@ -6,7 +6,7 @@
 
 ### [rpc](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 
-### build
+### [build](https://ethereum.gitbooks.io/frontier-guide/content/installing_linux.html)
     
   cpp
   
