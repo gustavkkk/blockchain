@@ -7,6 +7,18 @@
 ### [rpc](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 
 ### build
-
+    
+  cpp
+  
     $ sudo apt-get install cmake
+    $ git submodule update --init
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ cmake --build .
+  
+  go
+  
     $ sudo apt-get install golang
+    $ make geth
+    $ make all
