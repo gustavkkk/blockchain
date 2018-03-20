@@ -15,7 +15,7 @@
     
 ### build
 
-   [*] Ubuntu
+   Ubuntu
    
     sudo apt-get install libdb++-dev
     sudo apt-get install software-properties-common
