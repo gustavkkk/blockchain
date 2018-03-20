@@ -15,6 +15,8 @@
     
 ### build
 
+   [*]Ubuntu
+   
     sudo apt-get install libdb++-dev
     sudo apt-get install software-properties-common
     sudo add-apt-repository ppa:bitcoin/bitcoin
