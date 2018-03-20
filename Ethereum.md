@@ -6,6 +6,6 @@
 
 ### [rpc](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 
-### [build]()
+### build
 
      $ sudo apt-get install cmake
