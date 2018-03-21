@@ -38,7 +38,16 @@
 
 ### API
 
-    bitcoind
+    bitcoinditon
+    bitcoind -datadir /home/ubuntu/bitcoind/data -rpcuser root -rpcpassword 123456-rpcport 8332 -daemon
     bitcoin-cli help
+    bitcoin-cli help | grep gettransaction
     bitcoin-cli gettransaction
     bitcoin-cli stop
+
+### pyRPC
+
+    curl http://127.0.0.1:9090/btc/help
+    curl http://127.0.0.1:9090/btc/getbalance -d "account=fun1"
+    curl http://127.0.0.1:9090/btc/getaccount -d "address=fun1"
+    
