@@ -1,3 +1,3 @@
 ### CMDs
 
-    mysql -u root -p root
+    mysql -u root -p
