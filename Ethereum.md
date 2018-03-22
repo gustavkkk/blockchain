@@ -27,7 +27,7 @@
     $ cmake --build .
     $ sudo make install
   
-  go
+  [go](https://geth.ethereum.org/install/)
   
     $ sudo apt-get install golang
     $ apt-get install geth
@@ -41,3 +41,7 @@
     sudo add-apt-repository -y ppa:ethereum/ethereum-dev    
     sudo apt-get update
     sudo apt-get install ethereum
+    
+### [set dir path]($ geth help)
+
+    geth --datadir "/home/ubuntu/.ethereum"
