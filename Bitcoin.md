@@ -51,3 +51,30 @@
     curl http://127.0.0.1:9090/btc/getbalance -d "account=fun1"
     curl http://127.0.0.1:9090/btc/getaccount -d "address=fun1"
     
+### Test
+
+    bitcoin-cli help sendtoaddress
+    
+    bitcoin-cli listaccounts
+    bitcoin-cli listtransactions
+    
+    bitcoin-cli getaddressinfo xxxxxxxxxxxxxxxxxxxxxxxxxx
+    
+    bitcoin-cli sendtoaddress xxxxxxxxxxxxxxxxxxxx 0.1
+    bitcoin-cli getreceivedfromaddress xxxxxxxxxxxxxxxxxxxxxxx
+    
+    bitcoin-cli getaddressesbyaccount xxxx
+    
+    bitcoin-cli gettransaction xxxxxxxxxxxxxxxxxxxxxxx
+    bitcoin-cli dumpwallet wallet.dat
+    bitcoin-cli getnewaddress
+    
+    bitcoin-cli getaccountaddress xxxx
+    
+    bitcoin-cli getbalance xxxxxxxxxxxxxxxxxxxxxxx
+    
+    
+    
+    
+    
+    
