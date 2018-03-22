@@ -25,6 +25,7 @@
     $ cd build
     $ cmake ..
     $ cmake --build .
+    $ sudo make install
   
   go
   
