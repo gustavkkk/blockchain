@@ -58,6 +58,7 @@
     
     bitcoin-cli listaccounts
     bitcoin-cli listtransactions
+    bitcoin-cli listtransactions | grep address
     
     bitcoin-cli getaddressinfo xxxxxxxxxxxxxxxxxxxxxxxxxx
     
