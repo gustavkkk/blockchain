@@ -54,6 +54,7 @@
 ### Test
 
     bitcoin-cli help sendtoaddress
+    bitcoin-cli help | grep send
     
     bitcoin-cli listaccounts
     bitcoin-cli listtransactions
