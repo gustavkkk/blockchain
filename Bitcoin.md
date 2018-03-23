@@ -55,7 +55,7 @@
     
     bitcoind -rpcuser=root -rpcpassword=123456 -rpcport=8545 -datadir=/home/ubuntu/bitcoind/data --daemon
 
-### Test
+### Test CLI
 
     bitcoin-cli help sendtoaddress
     bitcoin-cli help | grep send
@@ -79,6 +79,12 @@
     
     bitcoin-cli getbalance xxxxxxxxxxxxxxxxxxxxxxx
     
+### Test RPC
+
+    curl 127.0.0.1:9090/btc/listtransactions -d "account=json&count=10&from="
+    curl 127.0.0.1:9090/btc/sendfrom -d "fromaccount=&toaddress=32Asg8GxveorKLkwF7fEC5zKUrR5oe2Rrz&amount=0.00001"
+    curl 127.0.0.1:9090/btc/listaccounts -d "minconf="
+    curl 127.0.0.1:9090/btc/getaccountaddress -d "account=json"
     
     
     
