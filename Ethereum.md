@@ -42,7 +42,7 @@
     sudo apt-get update
     sudo apt-get install ethereum
     
-### [set dir path]($ geth help)
+### Set datadir path
 
     geth --datadir "/home/ubuntu/.ethereum"
     
@@ -50,4 +50,4 @@
 
     geth --rpc
     
-    
+###
