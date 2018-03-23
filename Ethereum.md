@@ -45,3 +45,9 @@
 ### [set dir path]($ geth help)
 
     geth --datadir "/home/ubuntu/.ethereum"
+    
+### Start RPC Service
+
+    geth --rpc
+    
+    
