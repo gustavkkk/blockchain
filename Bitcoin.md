@@ -85,6 +85,7 @@
     curl 127.0.0.1:9090/btc/sendfrom -d "fromaccount=&toaddress=32Asg8GxveorKLkwF7fEC5zKUrR5oe2Rrz&amount=0.00001"
     curl 127.0.0.1:9090/btc/listaccounts -d "minconf="
     curl 127.0.0.1:9090/btc/getaccountaddress -d "account=json"
+    curl 127.0.0.1:9090/btc/help
     
     
     
