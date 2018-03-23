@@ -1,5 +1,7 @@
 ### [guide](https://www.reddit.com/r/ethereum/comments/5viint/how_to_download_and_install_ethereum_wallet_and/)
 
+### [wiki](https://github.com/ethereum/go-ethereum/wiki/Geth)
+
 ### [wallet](https://www.ethereum.org/)
 
     [Release](https://github.com/ethereum/mist/releases/)
