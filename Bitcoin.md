@@ -50,7 +50,11 @@
     curl http://127.0.0.1:9090/btc/help
     curl http://127.0.0.1:9090/btc/getbalance -d "account=fun1"
     curl http://127.0.0.1:9090/btc/getaccount -d "address=fun1"
+
+### Start RPC Service
     
+    bitcoind --rpcuser=root --rpcpassword=123456 --rpcport=8545 --datadir=/home/ubuntu/bitcoind/data --daemon
+
 ### Test
 
     bitcoin-cli help sendtoaddress
