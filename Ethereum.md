@@ -51,5 +51,6 @@
 ### Start RPC Service
 
     geth --rpc
+    geth --rpc --rpcaddr 127.0.0.1 --rpcport 8454 
     
 ###
