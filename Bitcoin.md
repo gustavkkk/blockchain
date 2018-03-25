@@ -39,7 +39,7 @@
 ### API
 
     bitcoinditon
-    bitcoind -datadir /home/ubuntu/bitcoind/data -rpcuser root -rpcpassword 123456-rpcport 8332 -daemon
+    bitcoind -rpcuser=root -rpcpassword=123456 -rpcport=8332 -datadir=/home/ubuntu/bitcoind/data --daemon
     bitcoin-cli help
     bitcoin-cli help | grep gettransaction
     bitcoin-cli gettransaction
@@ -53,7 +53,7 @@
 
 ### Start RPC Service
     
-    bitcoind -rpcuser=root -rpcpassword=123456 -rpcport=8545 -datadir=/home/ubuntu/bitcoind/data --daemon
+    bitcoind -rpcuser=root -rpcpassword=123456 -rpcport=8332 -datadir=/home/ubuntu/bitcoind/data --daemon
 
 ### Test CLI
 
