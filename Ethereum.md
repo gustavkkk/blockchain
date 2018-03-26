@@ -46,8 +46,10 @@
 
 ### [ETH-CLI](https://ethereum.org/cli)
 
-    geth console
-    geth attach
+   [JavaScript-Console](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console)
+   
+    $ geth console
+    $ geth attach
 
 ### Set datadir path
 
