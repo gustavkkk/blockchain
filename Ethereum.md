@@ -1,6 +1,8 @@
 ### [guide](https://www.reddit.com/r/ethereum/comments/5viint/how_to_download_and_install_ethereum_wallet_and/)
 
-### [wiki](https://github.com/ethereum/go-ethereum/wiki)
+### [wiki](https://github.com/ethereum/wiki/wiki)
+
+   [go](https://github.com/ethereum/go-ethereum/wiki)
 
 ### [wallet](https://www.ethereum.org/)
 
@@ -50,6 +52,8 @@
    
     $ geth console
     $ geth attach
+    > personal.newAccount(passwd)
+    > personal.listAccounts
 
 ### Set datadir path
 
