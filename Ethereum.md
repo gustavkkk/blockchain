@@ -2,6 +2,8 @@
 
 ### [wiki](https://github.com/ethereum/wiki/wiki)
 
+   [gitbooks](https://ethereum.gitbooks.io/frontier-guide/content/jsre.html)
+
    [go](https://github.com/ethereum/go-ethereum/wiki)
 
 ### [wallet](https://www.ethereum.org/)
@@ -48,7 +50,7 @@
 
 ### [ETH-CLI](https://ethereum.org/cli)
 
-   [JavaScript-Console](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console)
+   [JavaScript-Console](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console) , [JSRE](https://ethereum.gitbooks.io/frontier-guide/content/jsre.html)
    
     $ geth console
     $ geth attach
