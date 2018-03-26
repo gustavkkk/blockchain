@@ -64,21 +64,17 @@
     bitcoin-cli listtransactions
     bitcoin-cli listtransactions | grep address
     
-    bitcoin-cli getaddressinfo xxxxxxxxxxxxxxxxxxxxxxxxxx
-    
     bitcoin-cli sendtoaddress xxxxxxxxxxxxxxxxxxxx 0.1
     bitcoin-cli getreceivedfromaddress xxxxxxxxxxxxxxxxxxxxxxx
     
-    bitcoin-cli getaddressesbyaccount xxxx
-    
+    bitcoin-cli getaddressinfo xxxxxxxxxxxxxxxxxxxxxxxxxx
     bitcoin-cli gettransaction xxxxxxxxxxxxxxxxxxxxxxx
-    bitcoin-cli dumpwallet wallet.dat
     bitcoin-cli getnewaddress
-    
     bitcoin-cli getaccountaddress xxxx
     bitcoin-cli getaccount xxxxxxxxxxxxxxxxxxxxxxx
-    
     bitcoin-cli getbalance xxxxxxxxxxxxxxxxxxxxxxx
+    
+    bitcoin-cli dumpwallet wallet.dat
     
 ### Test RPC
 
@@ -88,6 +84,13 @@
     curl 127.0.0.1:9090/btc/getaccountaddress -d "account=json"
     curl 127.0.0.1:9090/btc/help
     
+### Test Browser(POSTMAN)
+
+    127.0.0.1:9090/btc/listtransactions?account=json&count=10&from=
+    127.0.0.1:9090/btc/sendfrom?fromaccount=&toaddress=32Asg8GxveorKLkwF7fEC5zKUrR5oe2Rrz&amount=0.00001
+    127.0.0.1:9090/btc/listaccounts?minconf=
+    127.0.0.1:9090/btc/getaccountaddress?account=json
+    127.0.0.1:9090/btc/help
     
     
     
