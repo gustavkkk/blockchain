@@ -12,7 +12,9 @@
 ### [guide](https://github.com/bitcoin/bitcoin/tree/master/doc)
 
    [BerkeleyDB](https://github.com/bitcoin/bitcoin/blob/master/doc/build-openbsd.md)
-    
+
+### [rpc](https://en.bitcoin.it/wiki/API_reference_%28JSON-RPC%29)
+
 ### build
 
    Ubuntu
