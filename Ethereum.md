@@ -47,6 +47,7 @@
 ### [ETH-CLI](https://ethereum.org/cli)
 
     geth console
+    geth attach
 
 ### Set datadir path
 
