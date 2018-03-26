@@ -76,6 +76,7 @@
     bitcoin-cli getnewaddress
     
     bitcoin-cli getaccountaddress xxxx
+    bitcoin-cli getaccount xxxxxxxxxxxxxxxxxxxxxxx
     
     bitcoin-cli getbalance xxxxxxxxxxxxxxxxxxxxxxx
     
