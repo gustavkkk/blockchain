@@ -66,4 +66,8 @@
     geth --rpc
     geth --rpc --rpcaddr 127.0.0.1 --rpcport 8454
     
-###
+### Test
+
+  [Transaction](https://ethereum.gitbooks.io/frontier-guide/content/ether_transfer.html)
+  
+    > eth.sendTransaction({from: '0x036a03fc47084741f83938296a1c8ef67f6e34fa', to: '0xa8ade7feab1ece71446bed25fa0cf6745c19c3d5', value: web3.toWei(1, "ether")})
