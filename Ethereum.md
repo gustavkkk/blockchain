@@ -55,7 +55,7 @@
     $ geth console
     $ geth attach
     > personal.newAccount(passwd)
-    > personal.listAccounts
+    > personal.listAccounts
 
 ### Set datadir path
 
