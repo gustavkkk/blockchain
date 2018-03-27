@@ -81,6 +81,7 @@
   
     > eth.sendTransaction({from: '0x036a03fc47084741f83938296a1c8ef67f6e34fa', to: '0xa8ade7feab1ece71446bed25fa0cf6745c19c3d5', value: web3.toWei(1, "ether")})
     >eth.accounts
+    >eth.coinbase
     > eth.getBalance('0x5d5e5432fd7dc5ab048e92b9e373713c1164650d')
     
 ### Test Browser
