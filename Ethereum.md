@@ -93,5 +93,8 @@
  ### [Create Private Key](https://github.com/ethereumjs/keythereum)
  
      geth account new
-     cat ~/.ethereum/keystore/UTC--2018-03-27T02-07-51.370329422Z--5d5e5432fd7dc5ab048e92b9e373713c1164650d 
+     cat ~/.ethereum/keystore/UTC--2018-03-27T02-07-51.370329422Z--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     geth --testnet account new
+     cat ~/.ethereum/testnet/keystore/UTC--2018-03-27T02-07-51.370329422Z--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     
 
