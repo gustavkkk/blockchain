@@ -80,3 +80,12 @@
   [Transaction](https://ethereum.gitbooks.io/frontier-guide/content/ether_transfer.html)
   
     > eth.sendTransaction({from: '0x036a03fc47084741f83938296a1c8ef67f6e34fa', to: '0xa8ade7feab1ece71446bed25fa0cf6745c19c3d5', value: web3.toWei(1, "ether")})
+    
+### Test Browser
+
+     127.0.0.1:9090/eth/gasprice
+     127.0.0.1:9090/eth/getbalance?address=
+     127.0.0.1:9090/eth/accounts
+     127.0.0.1:9090/eth/sendtransaction?to=&from=&gas=&gasPrice=&value=&data=
+     127.0.0.1:9090/eth/gettransactioncount?address=
+     127.0.0.1:9090/eth/getransactionreceipt?tx_hash=
