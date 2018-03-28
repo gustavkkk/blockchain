@@ -130,6 +130,8 @@
    
    [listtransactions](https://github.com/ethereum/go-ethereum/issues/2104)
    
+   [listtransactions](https://github.com/ethereum/go-ethereum/issues/1897)
+   
  ### [Contract]()
  
    1. Edit a Contract as example.sol
