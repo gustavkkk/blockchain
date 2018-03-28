@@ -85,7 +85,7 @@
     > eth.accounts
     > eth.coinbase
     > eth.getBalance('0x5d5e5432fd7dc5ab048e92b9e373713c1164650d')
-    > eth.getTransactionByHash("0x169ec56e82f06aeda45ff4608469f9f7fb518765530b968c8d0fb1061cf88a4b")
+    > eth.getTransaction("0x169ec56e82f06aeda45ff4608469f9f7fb518765530b968c8d0fb1061cf88a4b")
     > eth.blockNumber
     > eth.getBlock(eth.blockNumber)
     
