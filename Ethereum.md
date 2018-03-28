@@ -128,5 +128,27 @@
  
    [etherscan-transaction](https://etherscan.io/txs)
    
+ ### [Contract]()
  
+   1. Edit a Contract as example.sol
+      
+            vim example.sol
+   
+            contract Example {
+
+                string s;
+
+                function set_s(string new_s) {
+                    s = new_s;
+                }
+
+                function get_s() returns (string) {
+                    return s;
+                }
+            }
+         
+   2. Compile
+    
+            solc --binary stdout example.sol
+      
 
