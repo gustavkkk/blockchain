@@ -80,11 +80,12 @@
 
   [Transaction](https://ethereum.gitbooks.io/frontier-guide/content/ether_transfer.html)
   
-    >personal.unlockAccount("0x5d5e5432fd7dc5ab048e92b9e373713c1164650d","",0)
+    > personal.unlockAccount("0x5d5e5432fd7dc5ab048e92b9e373713c1164650d","",0)
     > eth.sendTransaction({from: '0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', to: '0x7aa5f148592d35fa0d659fe2f3f98d5e30c66da3', value: web3.toWei(0.1, "ether")})
-    >eth.accounts
-    >eth.coinbase
+    > eth.accounts
+    > eth.coinbase
     > eth.getBalance('0x5d5e5432fd7dc5ab048e92b9e373713c1164650d')
+    > eth.getTransactionByHash("0x169ec56e82f06aeda45ff4608469f9f7fb518765530b968c8d0fb1061cf88a4b")
     
 ### Test Browser
 
