@@ -81,7 +81,7 @@
 ### Test RPC
 
     curl 127.0.0.1:9090/btc/listtransactions -d "account=json&count=10&from="
-    curl 127.0.0.1:9090/btc/sendfrom -d "fromaccount=&toaddress=32Asg8GxveorKLkwF7fEC5zKUrR5oe2Rrz&amount=0.00001"
+    curl 127.0.0.1:9090/btc/sendfrom -d "fromaccount=json&toaddress=3DVEBu1GUcby6BJQBcHjdro11CPb1VB6uk&amount=0.00001"
     curl 127.0.0.1:9090/btc/listaccounts -d "minconf="
     curl 127.0.0.1:9090/btc/getaccountaddress -d "account=json"
     curl 127.0.0.1:9090/btc/help
