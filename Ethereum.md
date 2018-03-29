@@ -82,6 +82,7 @@
     geth --rpc
     geth --rpc --rpcaddr 127.0.0.1 --rpcport 8454
     geth --rpc --exec "personal.unlockAccount(eth.accounts[0], \password\", 3600)"
+    geth --rpc --unlock 0x5d5e5432fd7dc5ab048e92b9e373713c1164650d --password password.txt
     
 ### Test
 
