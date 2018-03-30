@@ -106,6 +106,7 @@
      127.0.0.1:9090/eth/sendtransaction?to=&from=&gas=&gasPrice=&value=&data=
      127.0.0.1:9090/eth/newaccount?passphrase=
      127.0.0.1:9090/eth/unlockaccount?account=&passphrase=
+     127.0.0.1:9090/eth/pendingTransactions
      #127.0.0.1:9090/eth/gettransactioncount?address=
      #127.0.0.1:9090/eth/getransactionreceipt?tx_hash=
      
