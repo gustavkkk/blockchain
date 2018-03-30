@@ -83,6 +83,7 @@
     geth --rpc --rpcaddr 127.0.0.1 --rpcport 8454
     geth --rpc --exec "personal.unlockAccount(eth.accounts[0], \password\", 3600)"
     geth --rpc --unlock 0x5d5e5432fd7dc5ab048e92b9e373713c1164650d --password password.txt
+    geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal"  --rpc
     
 ### Test
 
@@ -97,6 +98,7 @@
     > eth.blockNumber
     > eth.getBlock(eth.blockNumber)
     > eth.getTransactionCount("0x5d5e5432fd7dc5ab048e92b9e373713c1164650d")
+    > eth.getTransactionReceipt("0x169ec56e82f06aeda45ff4608469f9f7fb518765530b968c8d0fb1061cf88a4b")
     
 ### Test Browser
 
