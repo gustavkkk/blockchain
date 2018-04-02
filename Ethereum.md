@@ -111,6 +111,8 @@
      127.0.0.1:9090/eth/pendingTransactions
      #127.0.0.1:9090/eth/gettransactioncount?address=
      127.0.0.1:9090/eth/getransactionreceipt?tx_hash=
+     127.0.0.1:9090/eth/newaccount?passphrase=123456
+     127.0.0.1:9090/eth/unlockaccount?account=0x13f4a6b622ea04da17e813b2e406b9212dd43c45&passphrase=123456
      
  ### [Create Private Key](https://github.com/ethereumjs/keythereum)
  
