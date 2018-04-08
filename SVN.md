@@ -45,6 +45,9 @@
     $ service httpd restart
     $ cat /var/log/httpd/*error*
     
+    $ vim /etc/selinux/config
+    SELINUX=enforcing修改为SELINUX=disable
+    
     $ svnserve -d -r /svn/ripple
     
 ### deploy repo
