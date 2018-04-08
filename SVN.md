@@ -23,6 +23,20 @@
     Include conf.d/*.conf
     [.....]
     
+    LoadModule dav_svn_module modules/mod_dav_svn.so
+    LoadModule authz_svn_module modules/mod_authz_svn.so
+
+    $ cd /etc/httpd/conf.d/
+    $ vi subversion.conf
+    <Location /ripple>
+    DAV svn
+    SVNPath /svn/ripple
+    Authtype Basic
+    AuthName "My Repository"
+    AuthzSVNAccessFile /svn/ripple/conf/authz
+    AuthUserFile /svn/ripple/conf/passwd
+    Require valid-user
+    </Location>
     
 ### deploy repo
 
