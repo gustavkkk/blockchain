@@ -3,7 +3,7 @@
     $ mkdir /svn
     $ svnadmin create /svn/ripple
     $ chown -R apache:apache /svn/ripple
-    $ vi /svn/ripple/svnserve.conf
+    $ vi /svn/ripple/svnserve.conf
     [general]
     anon-access = none
     auth-access = write
