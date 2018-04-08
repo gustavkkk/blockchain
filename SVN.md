@@ -29,6 +29,8 @@
     
     $ cd /etc/httpd/conf.d/
     $ vi subversion.conf
+    LoadModule dav_svn_module     modules/mod_dav_svn.so
+    LoadModule authz_svn_module   modules/mod_authz_svn.so
     <Location /ripple>
     DAV svn
     SVNPath /svn/ripple
