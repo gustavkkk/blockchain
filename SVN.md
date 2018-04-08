@@ -1,5 +1,8 @@
 ### create repo
 
+    $ sudo yum install subversion
+    $ sudo yum install httpd
+    
     $ mkdir /svn
     $ svnadmin create /svn/ripple
     $ chown -R apache:apache /svn/ripple
