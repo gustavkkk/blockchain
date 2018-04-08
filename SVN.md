@@ -12,6 +12,7 @@
     auth-access = write
     password-db = passwd
     authz-db = authz
+    realm = My First Repository 
     
     create usr&passwd pair
     $ htpasswd -c /svn/ripple/conf/passwd jay
