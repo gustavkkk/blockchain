@@ -15,7 +15,7 @@
     realm = My First Repository 
     
     create usr&passwd pair
-    $ htpasswd -c /svn/ripple/conf/passwd jay
+    $ htpasswd -c /svn/ripple/conf/passwd kojy
     $ vim /svn/ripple/conf/authz
     [repo1:/]
     kojy = r
