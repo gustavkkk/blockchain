@@ -38,8 +38,12 @@
     Require valid-user
     </Location>
     
+    $ service httpd restart
+    
 ### deploy repo
 
+    $ mkdir repo_client
+    $ svn co http://192.168.43.101/ripple repo_client
     $ svn up
     $ svn commit -m add-new
     $ svn add xxx.py
