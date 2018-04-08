@@ -12,15 +12,15 @@
     auth-access = write
     password-db = passwd
     authz-db = authz
-    realm = ripple
+    realm = repos
     
     create usr&passwd pair
     $ htpasswd -c /svn/ripple/conf/passwd kojy
     $ vim /svn/ripple/conf/authz
-    [ripple:/]
-    kojy = r
-    frank = rw
-    * =
+    group1=jack,emily,frank,king,john,kevin
+    [/]
+    @group1 =rw
+    *=r 
     
     $ vi /etc/httpd/conf/httpd.conf
     [.....]
