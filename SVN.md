@@ -12,7 +12,7 @@
     auth-access = write
     password-db = passwd
     authz-db = authz
-    realm = My First Repository 
+    realm = ripple
     
     create usr&passwd pair
     $ htpasswd -c /svn/ripple/conf/passwd kojy
