@@ -17,7 +17,7 @@
     create usr&passwd pair
     $ htpasswd -c /svn/ripple/conf/passwd kojy
     $ vim /svn/ripple/conf/authz
-    [repo1:/]
+    [ripple:/]
     kojy = r
     frank = rw
     * =
