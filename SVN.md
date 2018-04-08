@@ -42,6 +42,9 @@
     </Location>
     
     $ service httpd restart
+    $ cat /var/log/httpd/*error*
+    
+    $ svnserve -d -r /svn/ripple
     
 ### deploy repo
 
