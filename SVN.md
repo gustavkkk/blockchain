@@ -40,6 +40,8 @@
     </Location>
     
     $ service httpd restart
+    $ systemctl restart httpd
+    $ systemctl status httpd.service
     $ cat /var/log/httpd/*error*
     
     $ vim /etc/selinux/config
