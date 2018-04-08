@@ -36,7 +36,7 @@
     DAV svn
     SVNPath /svn/ripple
     Authtype Basic
-    AuthName "My Repository"
+    AuthName "ripple"
     AuthzSVNAccessFile /svn/ripple/conf/authz
     AuthUserFile /svn/ripple/conf/passwd
     Require valid-user
