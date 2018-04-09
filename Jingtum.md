@@ -4,13 +4,14 @@
    
     from jingtumsdk.account import Wallet, FinGate, Amount, Memo
     # init
+    fingate_secret = xxxx
+    fingate_address = xxxxxxxxx
     fingate = FinGate()
-    fingate.setAccount("snqFcH......pQYzxEEbW");
+    fingate.setAccount(fingate_secret, fingate_address)
     fingate.setMode(FinGate.DEVLOPMENT)
     # create wallet
     my_wallet = fingate.createWallet()
     #
-    fingate.setAccount(my_wallet.secret, my_wallet.address)
     fingate.setActivateAmount(25)
     ret = fingate.activeWallet(my_wallet.address)
     #
