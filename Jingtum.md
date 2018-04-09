@@ -11,14 +11,12 @@
     fingate = FinGate()
     fingate.setAccount(fingate_secret, fingate_address)
     fingate.setMode(FinGate.DEVLOPMENT)
-    # create wallet
+    # Create Wallet
     my_wallet = fingate.createWallet()
-    # 
     fingate.setActivateAmount(25)
     ret = fingate.activeWallet(my_wallet.address)
-    # Create Wallet
     wallet =  Wallet(my_wallet.secret,my_wallet.address)
-    #
+    # GetBalance
     bc = my_wallet.getBalance();
     bc = my_wallet.getBalance('SWT');
     bc = my_wallet.getBalance('USD');
