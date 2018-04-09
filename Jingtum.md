@@ -36,5 +36,10 @@
     # Send Transaction
     from jingtumsdk.operation import PaymentOperation
     op = PaymentOperation(wallet)
-    op.setDestAddress('jpyyHbEWiuCA......DRrYJQzcXb')
+    op.setDestAddress(dest_addr)
+    amt = Amount(10, "CNY", fingate_issuer)
+    op.setAmount(amt)
+    op.setClientId("20611171957")
+    op.setValidate(true)
+    op.submit()#callback)
     
