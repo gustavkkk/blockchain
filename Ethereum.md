@@ -142,7 +142,9 @@
    [listtransactions](https://github.com/ethereum/go-ethereum/issues/1897)
    
  ### [Contract]()
- 
+
+   EX1:
+
    1. Edit a Contract as example.sol
       
             vim example.sol
@@ -165,9 +167,7 @@
             solc --binary stdout example.sol
             
    3. Creating
-   
-      EX1:
-      
+         
             > compiled = '0x606060405261020f806100136000396000f30060606040526000357c01000000000000000000000000000000000000000000000000000000009004806375d74f3914610044578063e7aab290146100bd57610042565b005b61004f600450610191565b60405180806020018281038252838181518152602001915080519060200190808383829060006004602084601f0104600302600f01f150905090810190601f1680156100af5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61010d6004803590602001906004018035906020019191908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050905061010f565b005b806000600050908051906020019082805482825590600052602060002090601f01602090048101928215610160579182015b8281111561015f578251826000505591602001919060010190610141565b5b50905061018b919061016d565b80821115610187576000818150600090555060010161016d565b5090565b50505b50565b60206040519081016040528060008152602001506000600050805480601f0160208091040260200160405190810160405280929190818152602001828054801561020057820191906000526020600020905b8154815290600101906020018083116101e357829003601f168201915b5050505050905061020c565b9056'
             > contract_tx = eth.sendTransaction({from: '0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', data: compiled, gas:'0x493e0'})
             '0x7dbde5d87f6b440cbc900545d1c559be00dd4504e61df1d7b9b59ba48c96d9de'
@@ -175,15 +175,29 @@
             '0x2f97e63809b53fe7fa3e3f45a6f1415c9917c07e'
             > tx = eth.sendTransaction({from:'0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', to:'0x7dbde5d87f6b440cbc900545d1c559be00dd4504e61df1d7b9b59ba48c96d9de', 'set_s(string)', ['Hello, world'])
             
-      EX2:
+      [EX2:](http://ethdocs.org/en/latest/contracts-and-transactions/contracts.html#interacting-with-a-contract)
       
       1. Contract
       
+               contract Multiply7 {
+                     event Print(uint);
+                     function multiply(uint input) returns (uint) {
+                        Print(input * 7);
+                        return input * 7;
+                     }
+                  }
+             
       2. Compile
       
-            > source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
+             > source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
+             > contract = eth.compile.solidity(source).test
+            
+      3. Execute
       
-            > 
+               > var Multiply7 = eth.contract(contract.info.abiDefinition);
+               > var myMultiply7 = Multiply7.at(address);
+               > myMultiply7.multiply.sendTransaction(3, {from: address})
+               > myMultiply7.multiply.call(3)
       
       
 ### [Discussing](https://gitter.im/ethereum/go-ethereum)
