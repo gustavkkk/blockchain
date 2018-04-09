@@ -17,9 +17,9 @@
     ret = fingate.activeWallet(my_wallet.address)
     wallet =  Wallet(my_wallet.secret,my_wallet.address)
     # GetBalance
-    bc = my_wallet.getBalance();
-    bc = my_wallet.getBalance('SWT');
-    bc = my_wallet.getBalance('USD');
-    bc = my_wallet.getBalance('USD', 'jMcCACcfG37xHy7.....FCk7tT');
+    bc = wallet.getBalance();
+    bc = wallet.getBalance('SWT');
+    bc = wallet.getBalance('USD');
+    bc = wallet.getBalance('USD', 'jMcCACcfG37xHy7.....FCk7tT');
     
     
