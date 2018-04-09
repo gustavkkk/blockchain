@@ -190,7 +190,7 @@
       2. Compile
       
              > source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
-             > contract = eth.compile.solidity(source).test
+             > contract = eth.compile.solidity(source).test
             
       3. Execute
       
