@@ -21,8 +21,8 @@
     fingate.setAccount(fingate_secret, fingate_address)
     fingate.setMode(FinGate.DEVLOPMENT)
     
-    # Create Account(Wallet)
-    my_wallet = fingate.createWallet()
+    # Create Account(Wallet)
+    my_wallet = fingate.createWallet()
     fingate.setActivateAmount(25)
     ret = fingate.activeWallet(my_wallet.address)
     wallet =  Wallet(my_wallet.secret,my_wallet.address)
