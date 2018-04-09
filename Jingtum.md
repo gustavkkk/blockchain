@@ -40,6 +40,6 @@
     amt = Amount(10, "CNY", fingate_issuer)
     op.setAmount(amt)
     op.setClientId("20611171957")
-    op.setValidate(true)
+    op.setValidate(True)
     op.submit()#callback)
     
