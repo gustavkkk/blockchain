@@ -224,9 +224,9 @@
                console.log(e)
              }
              })
-             #> var contract = eth.contract(abi)#contract.info.abiDefinition)
-             #> var mycontract = contract.at(address)
-             #> var mycontract = contract.new(...)
+             #> var contract = eth.contract(abi)#contract.info.abiDefinition)
+             #> var mycontract = contract.at(address)
+             #> var mycontract = contract.new(...)
              > eth.getCode(contractaddress)
              #> mycontract.multiply.sendTransaction(3, {from: address})
              #> mycontract.multiply.call(3)
