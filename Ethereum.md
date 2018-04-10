@@ -177,7 +177,9 @@
             '0x7dbde5d87f6b440cbc900545d1c559be00dd4504e61df1d7b9b59ba48c96d9de'
             > contract_addr = eth.getTransactionReceipt(contract_tx)
             '0x2f97e63809b53fe7fa3e3f45a6f1415c9917c07e'
+            > eth.getCode('0x2f97e63809b53fe7fa3e3f45a6f1415c9917c07e')
             > tx = eth.sendTransaction({from:'0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', to:'0x7dbde5d87f6b440cbc900545d1c559be00dd4504e61df1d7b9b59ba48c96d9de', 'set_s(string)', ['Hello, world'])
+            
             
       [EX2:](http://ethdocs.org/en/latest/contracts-and-transactions/contracts.html#interacting-with-a-contract)
       
@@ -202,12 +204,13 @@
             
       3. Execute
 
-             > compiled = '0x606060405261020f806100136000396000f30060606040526000357c01000000000000000000000000000000000000000000000000000000009004806375d74f3914610044578063e7aab290146100bd57610042565b005b61004f600450610191565b60405180806020018281038252838181518152602001915080519060200190808383829060006004602084601f0104600302600f01f150905090810190601f1680156100af5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61010d6004803590602001906004018035906020019191908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050905061010f565b005b806000600050908051906020019082805482825590600052602060002090601f01602090048101928215610160579182015b8281111561015f578251826000505591602001919060010190610141565b5b50905061018b919061016d565b80821115610187576000818150600090555060010161016d565b5090565b50505b50565b60206040519081016040528060008152602001506000600050805480601f0160208091040260200160405190810160405280929190818152602001828054801561020057820191906000526020600020905b8154815290600101906020018083116101e357829003601f168201915b5050505050905061020c565b9056'
-             > abi = '[{\"constant\":false,\"inputs\":[],\"name\":\"get_s\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"new_s\",\"type\":\"string\"}],\"name\":\"set_s\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]'
-             > var Multiply7 = eth.contract(abi)#contract.info.abiDefinition);
-             > var myMultiply7 = Multiply7.at(address);
-             > myMultiply7.multiply.sendTransaction(3, {from: address})
-             > myMultiply7.multiply.call(3)
+             > compiled = '6060604052341561000f57600080fd5b60eb8061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063c6888fa1146044575b600080fd5b3415604e57600080fd5b606260048080359060200190919050506078565b6040518082815260200191505060405180910390f35b60007f24abdb5865df5079dcc5ac590ff6f01d5c16edbc5fab4e195d9febd1114503da600783026040518082815260200191505060405180910390a16007820290509190505600a165627a7a72305820aec192a03020f68fff241d0b23d88d4d29e55a163eaaf061be553287527aa5880029'
+             > abi = '[{"constant":false,"inputs":[{"name":"input","type":"uint256"}],"name":"multiply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"","type":"uint256"}],"name":"Print","type":"event"}]'
+             > var contract = eth.contract(abi)#contract.info.abiDefinition)
+             > var mycontract = contract.at(address)
+             > eth.getCode(contractaddress)
+             > mycontract.multiply.sendTransaction(3, {from: address})
+             > mycontract.multiply.call(3)
       
       
 ### [Discussing](https://gitter.im/ethereum/go-ethereum)
