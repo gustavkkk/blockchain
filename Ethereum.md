@@ -209,7 +209,8 @@
              > abi = '[{"constant":false,"inputs":[{"name":"a","type":"uint256"}],"name":"multiply","outputs":[{"name":"d","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]'
              > contract_tx = eth.sendTransaction({from: '0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', data: compiled, gas:eth.estimateGas({data: bytecode})})
              '0xc9b6fa6c4d7ee5fb0cc8e3bc66f6700cc957a3002e3370ee0f92765954170e8f'
-             > contractInstance = myContract.new({data: bytecode gas: 1000000, from: account1}, function(e, contract){
+             > mycontract = eth.contract(abi)
+             > contract_instance = mycontract.new({data: bytecode, gas: eth.estimateGas({data: bytecode}), from: eth.coinbase}, function(e, contract){
              if(!e){
                if(!contract.address){
                   console.log("Contract transaction send: Transaction Hash: "+contract.transactionHash+" waiting to be mined...");
