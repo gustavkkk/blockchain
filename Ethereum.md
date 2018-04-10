@@ -147,8 +147,10 @@
 
    1. Edit a Contract as example.sol
       
-            vim example.sol
-   
+            $ vim example.sol
+            
+            pragma solidity ^0.4.21;
+            
             contract Example {
 
                 string s;
@@ -164,7 +166,8 @@
          
    2. Compile
     
-            solc --binary stdout example.sol
+            $ solc --bin stdout example.sol
+            $ solc --abi example.sol
             
    3. Creating
          
