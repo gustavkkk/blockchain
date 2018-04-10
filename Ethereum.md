@@ -181,7 +181,7 @@
             > tx = eth.sendTransaction({from:'0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', to:'0x7dbde5d87f6b440cbc900545d1c559be00dd4504e61df1d7b9b59ba48c96d9de', 'set_s(string)', ['Hello, world'])
             
             
-      [EX2:](http://ethdocs.org/en/latest/contracts-and-transactions/contracts.html#interacting-with-a-contract)
+      [EX2:](http://ethdocs.org/en/latest/contracts-and-transactions/contracts.html#interacting-with-a-contract) doesn't work
       
       1. Contract
       
@@ -224,11 +224,12 @@
                console.log(e)
              }
              })
-             > var contract = eth.contract(abi)#contract.info.abiDefinition)
-             > var mycontract = contract.at(address)
+             #> var contract = eth.contract(abi)#contract.info.abiDefinition)
+             #> var mycontract = contract.at(address)
+             #> var mycontract = contract.new(...)
              > eth.getCode(contractaddress)
-             > mycontract.multiply.sendTransaction(3, {from: address})
-             > mycontract.multiply.call(3)
+             #> mycontract.multiply.sendTransaction(3, {from: address})
+             #> mycontract.multiply.call(3)
       
       
 ### [Discussing](https://gitter.im/ethereum/go-ethereum)
