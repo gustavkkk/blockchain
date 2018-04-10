@@ -166,7 +166,7 @@
          
    2. Compile
     
-            $ solc --bin stdout example.sol
+            $ solc --bin example.sol
             $ solc --abi example.sol
             
    3. Creating
@@ -185,27 +185,42 @@
       
       1. Contract
       
-               pragma solidity ^0.4.21;
-               
-               contract Multiply7 {
-                     event Print(uint);
-                     function multiply(uint input) returns (uint) {
-                        Print(input * 7);
-                        return input * 7;
-                     }
+             pragma solidity ^0.4.4;
+
+             contract test {
+
+                  function multiply(uint a) returns(uint d){
+
+                  return a * 7;
                   }
+
+             }
              
       2. Compile
       
              #> source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
              #> contract = eth.compile.solidity(source).test
-             $ solc --bin stdout example.sol
+             $ solc --bin example.sol
              $ solc --abi example.sol
             
       3. Execute
 
-             > compiled = '6060604052341561000f57600080fd5b60eb8061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063c6888fa1146044575b600080fd5b3415604e57600080fd5b606260048080359060200190919050506078565b6040518082815260200191505060405180910390f35b60007f24abdb5865df5079dcc5ac590ff6f01d5c16edbc5fab4e195d9febd1114503da600783026040518082815260200191505060405180910390a16007820290509190505600a165627a7a72305820aec192a03020f68fff241d0b23d88d4d29e55a163eaaf061be553287527aa5880029'
-             > abi = '[{"constant":false,"inputs":[{"name":"input","type":"uint256"}],"name":"multiply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"","type":"uint256"}],"name":"Print","type":"event"}]'
+             > bytecode = '0x6060604052341561000f57600080fd5b60b18061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063c6888fa1146044575b600080fd5b3415604e57600080fd5b606260048080359060200190919050506078565b6040518082815260200191505060405180910390f35b60006007820290509190505600a165627a7a72305820f7e57fcd19c7e5db9916e0d80b4355376628d8eff50b76cb52c6e6794bf05d1a0029'
+             > abi = '[{"constant":false,"inputs":[{"name":"a","type":"uint256"}],"name":"multiply","outputs":[{"name":"d","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]'
+             > contract_tx = eth.sendTransaction({from: '0x5d5e5432fd7dc5ab048e92b9e373713c1164650d', data: compiled, gas:eth.estimateGas({data: bytecode})})
+             '0xc9b6fa6c4d7ee5fb0cc8e3bc66f6700cc957a3002e3370ee0f92765954170e8f'
+             > contractInstance = myContract.new({data: bytecode gas: 1000000, from: account1}, function(e, contract){
+             if(!e){
+               if(!contract.address){
+                  console.log("Contract transaction send: Transaction Hash: "+contract.transactionHash+" waiting to be mined...");
+               }else{
+                  console.log("Contract mined! Address: "+contract.address);
+                  console.log(contract);
+               }
+             }else{
+               console.log(e)
+             }
+             })
              > var contract = eth.contract(abi)#contract.info.abiDefinition)
              > var mycontract = contract.at(address)
              > eth.getCode(contractaddress)
