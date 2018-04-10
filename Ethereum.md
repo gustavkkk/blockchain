@@ -183,6 +183,8 @@
       
       1. Contract
       
+               pragma solidity ^0.4.21;
+               
                contract Multiply7 {
                      event Print(uint);
                      function multiply(uint input) returns (uint) {
