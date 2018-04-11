@@ -242,3 +242,7 @@
       
       
 ### [Discussing](https://gitter.im/ethereum/go-ethereum)
+
+### Test
+
+      curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1}' http://localhost:8545
