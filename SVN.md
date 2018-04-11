@@ -54,7 +54,7 @@
 ### deploy repo
 
     $ mkdir repo_client
-    $ svn co http://192.168.43.101/svn/ripple repo_client
+    $ svn co svn://192.168.43.101/svn/ripple repo_client
     $ svn import project svn://192.168.43.101/svn/ripple -m "initial import"
     $ svn up
     $ svn commit -m add-new
