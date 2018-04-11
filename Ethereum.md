@@ -246,3 +246,8 @@
 ### Test
 
       curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1}' http://localhost:8545
+      curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}' http://localhost:8545
+      curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x169ec56e82f06aeda45ff4608469f9f7fb518765530b968c8d0fb1061cf88a4b"],"id":1}' http://localhost:8545
+      curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["0x52b4fd", true],"id":1}' http://localhost:8545
+      
+      
