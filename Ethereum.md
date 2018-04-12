@@ -125,9 +125,11 @@
  
  ### Online
  
-   [Balance](https://ethereum-balance.com)
+   [ethereum-balance](https://ethereum-balance.com)
    
    [etherchain](https://www.etherchain.org/account/)
+   
+   [etherscan](https://etherscan.io/])
  
  ### [web3.js]()
  
