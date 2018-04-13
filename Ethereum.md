@@ -254,7 +254,10 @@
       curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x169ec56e82f06aeda45ff4608469f9f7fb518765530b968c8d0fb1061cf88a4b"],"id":1}' http://localhost:8545
       curl -H 'content-type: application/json'  -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["0x52b4fd", true],"id":1}' http://localhost:8545
       
-      
+# Topics
+
  ### [Pending Transactions](https://www.reddit.com/r/EtherDelta/comments/72tctz/guide_how_to_cancel_a_pending_transaction/)
+ 
+ ### [Cancel Transaction](https://stackoverflow.com/questions/48738582/web3-can-eth-transaction-be-cancelled)
       
       
