@@ -259,5 +259,13 @@
  ### [Pending Transactions](https://www.reddit.com/r/EtherDelta/comments/72tctz/guide_how_to_cancel_a_pending_transaction/)
  
  ### [Cancel Transaction](https://stackoverflow.com/questions/48738582/web3-can-eth-transaction-be-cancelled)
+ 
+   [How to cancel](https://ethereum.stackexchange.com/questions/9072/canceling-overwriting-a-pending-transaction-using-geth-json-rpc/24586)
+   
+      > personal.unlockAccount('<YOUR_ACCOUNT>')
+        Unlock account <YOUR_ACCOUNT>
+        Passphrase:
+        true
+      > eth.sendTransaction({from: '<YOUR_ACCOUNT>',to: '<YOUR_ACCOUNT>',value: 0,gasPrice: <NEW_HIGHER_GAS_PRICE>,gasLimit: 24000,nonce: '<NONCE_OF_YOUR_PENDING_TRANSACTION>'});
       
       
