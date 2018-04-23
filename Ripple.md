@@ -10,3 +10,4 @@
     $ sudo apt-get install -y nodejs
     Install yarn
     $ sudo npm install -g yarnpkg
+    $ sudo apt-get install -y libprotobuf-dev
