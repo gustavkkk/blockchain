@@ -1,7 +1,8 @@
 ### Refs
 
-    []()
-     
+    [rippleapi](https://ripple.com/build/rippleapi/#boilerplate)
+    [rippled-build-ubuntu](https://ripple.com/build/build-run-rippled-ubuntu/)
+    
 ### API
 
     Install NodeJS
