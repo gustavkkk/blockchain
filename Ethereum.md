@@ -270,5 +270,6 @@
       
 ### TEST using TestNet
 
+    $ geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal,miner"  --rpc --testnet
    
 
