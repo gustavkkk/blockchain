@@ -271,7 +271,10 @@
 ### TEST using TestNet
 
     $ geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal,miner"  --rpc --testnet
-    $ geth --testnet attach
     $ geth --testnet account new
+    $ geth --testnet --mine --minerthreads=4
+    $ geth --testnet attach
+    > miner.start(8)
+    > miner.stop()
    
 
