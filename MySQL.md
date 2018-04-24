@@ -1,5 +1,8 @@
 ### CMDs
-
+    Installation
+    $ sudo apt-get install mysql-server
+    $ pip install pymysql
+    
     mysql -u root -p
     select * from table_name;
     delete from table_name;
