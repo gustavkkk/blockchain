@@ -272,5 +272,6 @@
 
     $ geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal,miner"  --rpc --testnet
     $ geth --testnet attach
+    $ geth --testnet account new
    
 
