@@ -268,7 +268,7 @@
         true
       > eth.sendTransaction({from: '<YOUR_ACCOUNT>',to: '<YOUR_ACCOUNT>',value: 0,gasPrice: <NEW_HIGHER_GAS_PRICE>,gasLimit: 24000,nonce: '<NONCE_OF_YOUR_PENDING_TRANSACTION>'});
       
-### TEST using TestNet
+### [TEST using TestNet](https://testnet.etherscan.io/)
 
     $ geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal,miner"  --rpc --testnet
     $ geth --testnet account new
