@@ -21,7 +21,7 @@
     # INIT FINGATE
     fingate = FinGate()
     fingate.setAccount(fingate_secret, fingate_address)
-    fingate.setMode(FinGate.DEVLOPMENT)
+    fingate.setMode(False)
     
     # Create Account(Wallet)
     my_wallet = fingate.createWallet()
