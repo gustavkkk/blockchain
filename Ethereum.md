@@ -277,5 +277,20 @@
     $ geth --testnet attach
     > miner.start(8)
     > miner.stop()
+    
+### CONCEPT
+
+   []()
    
+   [token]()
+
+   [Contract]() - Decentralized Logic
+  
+   [Swarm](https://ethereum.stackexchange.com/questions/375/what-is-swarm-and-what-is-it-used-for) - Decentralized Storage
+  
+   [Whisper]() - Decentralized Messaging
+   
+   [IPFS]()
+   
+   [DApp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp)
 
