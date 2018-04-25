@@ -1,6 +1,6 @@
 ### [document](http://developer.jingtum.com/)
 
-### [API](https://github.com/jingtum/jingtum-python-sdk), [ex](https://github.com/jingtum/jingtum-examples)
+### [API](https://github.com/jingtum/jingtum-python-sdk), [ex](https://github.com/jingtum/jingtum-examples) :  This code is old. jingtum-python-sdk was developed as api1.0 in 2017, then never updated. It is nothing but a capsule of api. so you download code, modifiy it, then use. That's it.
   
    python
    
@@ -44,4 +44,9 @@
     op.setClientId("20611171957")
     op.setValidate(True)
     op.submit()#callback)
+    
+ [API2](http://developer.jingtum.com/api2_doc.html)   
+ 
+    https://api.jingtum.com/v2/accounts/jLf34anobZPvVWPDHojsagxuMhA9WtW7fR/balances
+ 
     
