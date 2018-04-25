@@ -292,5 +292,5 @@
    
    [IPFS]()
    
-   [DApp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp)
+   [DApp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp) - Decentralized Application
 
