@@ -1,6 +1,6 @@
 ### [document](http://developer.jingtum.com/)
 
-### [API](https://github.com/jingtum/jingtum-python-sdk), [ex](https://github.com/jingtum/jingtum-examples) :  This code is old. jingtum-python-sdk was developed as api1.0 in 2017, then never updated. It is nothing but a capsule of api. so you download code, modifiy it, then use. That's it.
+### [API](https://github.com/jingtum/jingtum-python-sdk), [ex](https://github.com/jingtum/jingtum-examples) :  This code is old. jingtum-python-sdk was developed as api1.0 in 2017, and since then never updated. It is nothing but a capsule of api. so you download code, modifiy it, then use. That's it.
   
    python
    
