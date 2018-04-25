@@ -1,15 +1,12 @@
-### Refs
+### APIs
 
     [rippleapi](https://ripple.com/build/rippleapi/#boilerplate)
     [rippled-apis](https://ripple.com/build/rippled-apis/)
     [rippled-build-ubuntu](https://ripple.com/build/build-run-rippled-ubuntu/)
-
-### APIs
-
     [data-ripple](https://data.ripple.com/)
     [data-api-v2](https://ripple.com/build/data-api-v2/)
 
-### API
+### JS
 
     Install NodeJS
     $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
