@@ -19,6 +19,8 @@
 
 ### CLI
 
+    ./rippled -h
+    ./rippled -a --start
     ./rippled account_tx r9DsFqNqLaMs5yBmhzUK7G9pCTSb9w3xoj 1 100000 100 count
     
 ### RPC
