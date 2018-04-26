@@ -28,7 +28,7 @@
 
    [Command_line_agent_for_sending_RPC_commands](https://wiki.ripple.com/Rippled#Command_line_agent_for_sending_RPC_commands)
 
-   Root Account-rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
+   Root Account-rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh,snoPBrXtMeMyMHUVTgbuqAfg1SUTb
     
     ./rippled account_info rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
 
