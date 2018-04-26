@@ -14,3 +14,13 @@
     Install yarn
     $ sudo npm install -g yarnpkg
     $ sudo apt-get install -y libprotobuf-dev
+    
+# TEST
+
+### CLI
+
+    ./rippled account_tx r9DsFqNqLaMs5yBmhzUK7G9pCTSb9w3xoj 1 100000 100 count
+    
+### RPC
+
+
