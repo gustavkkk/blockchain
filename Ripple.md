@@ -55,4 +55,7 @@
 ### RPC
     
     https://data.ripple.com/v2/accounts/rHiNp12QB1PCpTXgjvyEn6xLE4st2Emciw/balances
+    {"result":"success","ledger_index":38225577,"limit":200,"balances":[{"currency":"XRP","value":"23.103172"}]}
+    https://data.ripple.com/v2/accounts/rB31eWvkfKBAu6FDD9zgnzT4RwSfXGcqPm
+    {"result":"success","account_data":{"account":"rB31eWvkfKBAu6FDD9zgnzT4RwSfXGcqPm","parent":"r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV","initial_balance":"10000.0","inception":"2013-01-25T04:33:10Z","ledger_index":137268,"tx_hash":"87D89156AA7C24085E731B43A032B017567F53FBBB976464A69AB546E9FFDBBC"}}
 
