@@ -37,9 +37,11 @@
     $ ./rippled -h
     
     standalone-testmode
-    $ ./rippled -a --start
+    #$ ./rippled -a --start
     normal mode
-    $ ./rippled
+    #$ ./rippled
+    working mode
+    $ ./rippled --start
     
     ./rippled -v account_info rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
     ./rippled -q sign snoPBrXtMeMyMHUVTgbuqAfg1SUTb '{"TransactionType":"Payment",  "Account":"rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh","Amount":"200000000","Destination":"r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV" }'
