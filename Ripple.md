@@ -28,6 +28,10 @@
 
    [Command_line_agent_for_sending_RPC_commands](https://wiki.ripple.com/Rippled#Command_line_agent_for_sending_RPC_commands)
 
+   Root Account-rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
+    
+    ./rippled account_info rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
+
 ### [CLI](https://wiki.ripple.com/Sending_RPC_Commands)
 
     $ ./rippled -h
