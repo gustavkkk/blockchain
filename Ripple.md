@@ -3,8 +3,13 @@
     [rippleapi](https://ripple.com/build/rippleapi/#boilerplate)
     [rippled-apis](https://ripple.com/build/rippled-apis/)
     [rippled-build-ubuntu](https://ripple.com/build/build-run-rippled-ubuntu/)
+    [rippled-setup](https://ripple.com/build/rippled-setup)
     [data-ripple](https://data.ripple.com/)
     [data-api-v2](https://ripple.com/build/data-api-v2/)
+
+### [Setup](https://ripple.com/build/rippled-setup)
+
+    
 
 ### JS
 
