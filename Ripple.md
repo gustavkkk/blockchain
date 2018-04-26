@@ -30,10 +30,13 @@
 
 ### [CLI](https://wiki.ripple.com/Sending_RPC_Commands)
 
-    ./rippled -h
-    ./rippled -a --start
+    $ ./rippled -h
     
-    ./rippled
+    standalone-testmode
+    $ ./rippled -a --start
+    normal mode
+    $ ./rippled
+    
     ./rippled -v account_info rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
     ./rippled -q sign snoPBrXtMeMyMHUVTgbuqAfg1SUTb '{"TransactionType":"Payment",  "Account":"rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh","Amount":"200000000","Destination":"r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV" }'
     ./rippled -v sign snoPBrXtMeMyMHUVTgbuqAfg1SUTb '{"TransactionType":"Payment",  "Account":"rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh","Amount":"200000000" }'
