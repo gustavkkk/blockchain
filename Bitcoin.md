@@ -96,7 +96,7 @@
     
 ### TEST
 
-    
+    alias bitcoin-test='bitcoin-cli -config=~/bitcoind/xxx.conf'
     
     
     
