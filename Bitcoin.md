@@ -97,6 +97,9 @@
 ### TEST
 
     alias bitcoin-test='bitcoin-cli -config=~/bitcoind/xxx.conf'
+    bitcoin-test getnewaddress jack
+    bitcoin-test getnewaddress frank
+    bitcoin-test listaccounts
     
     
     
