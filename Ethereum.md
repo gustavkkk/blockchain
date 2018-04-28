@@ -293,4 +293,9 @@
    [IPFS]()
    
    [DApp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp) - [Decentralized Applications](https://blockgeeks.com/guides/dapps/)
+   
+### TEST
+
+      geth --rpcapi eth,web3,personal --rpcport 18600 --port 18601 -testnet --rpc
+      geth --rpcapi eth,web3,personal --rpcport 8600 --port 8601 --rpc
 
