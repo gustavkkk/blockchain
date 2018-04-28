@@ -96,6 +96,8 @@
     
 ### TEST
 
+   [Check-Balance](https://www.blocktrail.com/tBTC/address/2MuuDnGquySMuA9WUAPLgJaDRGUa2pwP9uK)
+
     alias bitcoin-test='bitcoin-cli -config=~/bitcoind/xxx.conf'
     bitcoin-test getnewaddress jack
     bitcoin-test getnewaddress frank
