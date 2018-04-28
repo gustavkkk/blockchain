@@ -46,7 +46,7 @@
     #$ ./rippled --load
     net
     #$ ./rippled --net
-    rpc mode
+    rpc mode
     $ ./rippled --start --rpc --rpc_ip 127.0.0.1 --rpc_port 9800
     
     ./rippled -v account_info rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
