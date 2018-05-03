@@ -1,4 +1,4 @@
-
+Possibilites
 
     1. Exchange-manual trade like huopipro.com
     2. Trade-programic, auto trading like IQ option
