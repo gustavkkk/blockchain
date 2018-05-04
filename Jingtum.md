@@ -1,5 +1,11 @@
 ### [document](http://developer.jingtum.com/)
 
+### Account
+
+   - [Business Account](https://www.sharingnetwork.cn/#/welcome/register)
+    
+   - [Personal/Wallet Account](https://app.jingtumlab.com/#/user/login)
+
 ### [API](https://github.com/jingtum/jingtum-python-sdk), [ex](https://github.com/jingtum/jingtum-examples) :  This code is old. jingtum-python-sdk was developed as api1.0 in 2017, and since then never updated. It is nothing but a capsule of api. so you download code, modifiy it, then use. That's it.
   
    python
