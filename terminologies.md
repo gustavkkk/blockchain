@@ -1,8 +1,8 @@
 ### 工具
 
-   - [有道词典](http://dict.youdao.com)
+   - [有道词典](http://dict.youdao.com)
    
-   - [有道翻译](http://fanyi.youdao.com/)
+   - [有道翻译](http://fanyi.youdao.com/)
    
    - [拼音](http://fanyu.baidu.com)
 
