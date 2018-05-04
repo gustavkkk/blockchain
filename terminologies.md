@@ -11,6 +11,7 @@
 
 ### [Ripple-Gateway](https://ripple.com/build/gateway-guide/#before-integration)
 
+    "business" : "业务",
     "the rest of the world" : "世界各地"，
     "in this document" : "在本文当中",
     "by becoming xxx" : "通过成为",
