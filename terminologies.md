@@ -14,5 +14,7 @@
     "business" : "业务",
     "the rest of the world" : "世界各地"，
     "in this document" : "在本文当中",
-    "by becoming xxx" : "通过成为",
+    "by becoming" : "通过成为",
     "by enabling" : "通过",
+    "authorized" : "授权",
+    "trust line" : "自信线",
