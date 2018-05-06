@@ -41,6 +41,6 @@
     "rely on " : "依赖于",
     "for" : "来为",
     "a currency exchange built into the protocol itself" : "一种在协议本身内建立的货币交换",
-    "" : "",
+    "in exchange for goods and services in the outside world" : "以外部世界的商品和服务为交换",
     "" : "",
     "" : "",
