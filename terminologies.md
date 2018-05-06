@@ -71,3 +71,5 @@
     "bouncing" : "跳跃",
     "field" : "字段",
     "Idempotency " : "幂等性",
+    "response" : "回应",
+    "request" : "请求",
