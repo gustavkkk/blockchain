@@ -37,6 +37,6 @@
     "the form of issuances tied to a specific issuing gateway" : "与特定发行网关绑定的发行形式",
     "take" : "采用",
     "This guide focuses on running an issuing gateway" : "本指南的重点是如何执行发行网关",
-    "" : "",
+    "buy and sell " : "买卖",
     "" : "",
     "" : "",
