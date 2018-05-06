@@ -29,4 +29,4 @@
     "fictional" : "虚构的",
     "a fictional online currency exchange named "ACME" " : "我们使用一个名为“ACME”的虚构的网络货币兑换",
     "its customers as examples" : "它的客户作为示例",
-    "" : "",
+    "models that gateways can follow" : "网关可以遵循的模式",
