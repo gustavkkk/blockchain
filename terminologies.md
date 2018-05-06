@@ -33,7 +33,7 @@
     "or other assets of value" : "或其他价值资产",
     "outside of the XRP Ledger" : "在XRP账本之外",
     "in the XRP Ledger" : "在XRP分类账中",
-    "This provides a direct way" : "它提供了一种直接的方式",
+    "This provides a direct way" : "它提供了一种直接的方式",
     "" : "",
     "" : "",
     "" : "",
