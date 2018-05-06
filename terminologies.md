@@ -67,3 +67,7 @@
     "assumption" : "假设",
     "flag" : "标记",
     "tag" : "标签",
+    "reliable" : "可靠的",
+    "bouncing" : "跳跃",
+    "" : "",
+    "" : "",
