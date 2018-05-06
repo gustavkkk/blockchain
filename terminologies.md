@@ -32,4 +32,4 @@
     "models that gateways can follow" : "网关可以遵循的模式",
     "or other assets of value" : "或其他价值资产",
     "outside of the XRP Ledger" : "在XRP账本之外",
-    "" : "",
+    "in the XRP Ledger" : "在XRP分类账中",
