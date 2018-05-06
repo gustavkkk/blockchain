@@ -60,9 +60,9 @@
     "transfer fee" : "转会费",
     "AML" : "反洗钱",
     "CFT" : "打击资助恐怖主义",
-    "freeze" : "冻结",
-    "" : "",
+    "freeze" : "冻结",
+    "Suspicious Activity Reporting" : "可疑事件回报",
+    "source of funds" : "资金来源",
     "" : "",
-    "" : "",
     "" : "",
     
