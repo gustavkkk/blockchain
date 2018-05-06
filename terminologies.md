@@ -82,4 +82,5 @@
     "regulatory requirements" : "监管要求",
     "infrastruture" : "基础设施",
     "depending on" : "根据",
-    "caution" : "注意",
+    "caution" : "注意",
+    "never" : "永远不要",
