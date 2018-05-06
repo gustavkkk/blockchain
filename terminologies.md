@@ -86,4 +86,5 @@
     "never" : "永远不要",
     "do not" : "不要",
     "Office of Foreign Assets Control" : "外国资产管制办公室",
+    "robustly" : "强劲的",
     "" : "",
