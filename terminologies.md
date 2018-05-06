@@ -80,6 +80,6 @@
     "permanently" : "永久",
     "terms of use" : "使用条款",
     "regulatory requirements" : "监管要求",
-    "infrastruture" : "基础设施",
-    "" : "",
+    "infrastruture" : "基础设施",
+    "depending on" : "根据",
     "" : "",
