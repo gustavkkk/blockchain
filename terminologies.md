@@ -65,5 +65,5 @@
     "source of funds" : "资金来源",
     "precaution" : "预防措施",
     "assumption" : "假设",
-    "" : "",
-    "" : "",
+    "flag" : "标记",
+    "tag" : "标签",
