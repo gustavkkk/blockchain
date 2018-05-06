@@ -51,5 +51,5 @@
     "Typically," : "一般来说,",
     "In exchange for distribution on the XRP ledger." : "以换取在XRP分类账上的发行",
     "perform" : "履行",
-    "" : "",
-    "" : "",
+    "Suggested Business Practices" : "建议的业务实践",
+    "Use separate Issuing and Operational Addresses to limit your risk profile on the network. " : "使用独立的发行和操作地址来限制在网络上的你的风险",
