@@ -63,6 +63,7 @@
     "freeze" : "冻结",
     "Suspicious Activity Reporting" : "可疑事件回报",
     "source of funds" : "资金来源",
+    "precaution" : "预防措施",
+    "assumption" : "假设",
     "" : "",
     "" : "",
-    
