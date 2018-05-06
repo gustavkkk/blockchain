@@ -11,6 +11,7 @@
 
 ### [Ripple-Gateway](https://ripple.com/build/gateway-guide/#before-integration)
 
+    "gateway" : "网关",
     "business" : "业务",
     "online" : "网络",
     "the rest of the world" : "世界各地"，
