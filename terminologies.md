@@ -84,3 +84,4 @@
     "depending on" : "根据",
     "caution" : "注意",
     "never" : "永远不要",
+    "do not" : "不要",
