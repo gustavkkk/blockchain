@@ -74,4 +74,6 @@
     "response" : "回应",
     "request" : "请求",
     "example:" : "例如:",
-    "" : "",
+    "ripple" : "",
+    "optionally" : "可选地",
+    "furthermore" : "此外",
