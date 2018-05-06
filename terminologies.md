@@ -40,7 +40,7 @@
     "buy and sell " : "买卖",
     "rely on " : "依赖于",
     "for" : "来为",
+    "a currency exchange built into the protocol itself" : "一种在协议本身内建立的货币交换",
     "" : "",
     "" : "",
     "" : "",
-    "" : "",
