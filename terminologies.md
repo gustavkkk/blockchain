@@ -69,5 +69,5 @@
     "tag" : "标签",
     "reliable" : "可靠的",
     "bouncing" : "跳跃",
-    "" : "",
-    "" : "",
+    "field" : "字段",
+    "Idempotency " : "幂等性",
