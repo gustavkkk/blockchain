@@ -49,4 +49,4 @@
     "ledger" : "分类账",
     "intervention" : "干预",
     "Typically," : "一般来说,",
-    "" : "",
+    "In exchange for distribution on the XRP ledger." : "以换取在XRP分类账上的发行",
