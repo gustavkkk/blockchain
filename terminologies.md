@@ -88,6 +88,6 @@
     "Office of Foreign Assets Control" : "外国资产管制办公室",
     "robustly" : "强劲的",
     "funded" : "资助的",
-    "" : "",
+    "Multi-Signing" : "多签名",
     "" : "",
     "" : "",
