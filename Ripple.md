@@ -54,7 +54,7 @@
     ./rippled -v sign snoPBrXtMeMyMHUVTgbuqAfg1SUTb '{"TransactionType":"Payment",  "Account":"rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh","Amount":"200000000" }'
     ./rippled account_tx r9DsFqNqLaMs5yBmhzUK7G9pCTSb9w3xoj 1 100000 100 count
     ./rippled submit snoPBrXtMeMyMHUVTgbuqAfg1SUTb '{"Account": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh", "Amount": "10000000000000", "Destination": "rUi66TRaq74BQEXh8cz2mgZKYRjG6j6QpV", "TransactionType": "Payment", "Fee": "1000000"}'
-    ./rippled wallet_propose 12345
+    ./rippled wallet_propose 12345
     
 ### RPC
     
