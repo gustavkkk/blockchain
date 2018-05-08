@@ -97,4 +97,4 @@
     "in exchange" : "作为交换",
     "user benefits" : "使用者效益",
     "prerequisites" : "先决条件",
-    "" : "",
+    "alpha" : "阿尔法",
