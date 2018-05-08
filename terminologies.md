@@ -100,4 +100,5 @@
     "alpha" : "阿尔法",
     "To support XRP" : "为了支持XRP",
     "create" : "创建",
-    "maintain" : "维护"
+    "maintain" : "维护",
+    "balance sheets" : "资产负债表",
