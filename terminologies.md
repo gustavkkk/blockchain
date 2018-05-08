@@ -99,3 +99,5 @@
     "prerequisites" : "先决条件",
     "alpha" : "阿尔法",
     "To support XRP" : "为了支持XRP",
+    "create" : "创建",
+    "maintain" : "维护"
