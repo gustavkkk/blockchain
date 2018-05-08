@@ -13,6 +13,8 @@
    [gitbooks](https://ethereum.gitbooks.io/frontier-guide/content/jsre.html)
 
    [go](https://github.com/ethereum/go-ethereum/wiki)
+   [ethdocs](http://ethdocs.org/en/latest/)
+   [gitbooks](https://ethereum.gitbooks.io/frontier-guide/content/backup_restore.html)
 
 ### [wallet](https://www.ethereum.org/)
 
