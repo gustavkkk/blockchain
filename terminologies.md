@@ -94,4 +94,4 @@
     "For details about other aspects of rippled and the XRP Ledger" : "关于rippled和XRP分类账的其他方面的细节",
     "See" : "请参阅",
     "describe" : "描述了",
-    "" : "",
+    "in exchange" : "作为交换",
