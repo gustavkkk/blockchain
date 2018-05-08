@@ -15,6 +15,7 @@
         
   - Using CLI
   
+        $ ./vacd wallet_propose 123456
         $ ./vacd account_info rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh
         $ ./vacd submit snoPBrXtMeMyMHUVTgbuqAfg1SUTb '{"Account": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh", "Amount": "10000000000000", "Destination": "rUfSWLedmvBJTSdj4xB9GgbGX5LuayXVkt", "TransactionType": "Payment", "Fee": "1000000"}'
              
