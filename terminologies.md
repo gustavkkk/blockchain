@@ -98,3 +98,4 @@
     "user benefits" : "使用者效益",
     "prerequisites" : "先决条件",
     "alpha" : "阿尔法",
+    "To support XRP" : "为了支持XRP",
