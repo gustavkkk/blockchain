@@ -31,6 +31,8 @@
 
     geth account new
     geth account list
+    geth account update
+    geth account import
 
 ### [src](https://github.com/ethereum/cpp-ethereum)   
 
