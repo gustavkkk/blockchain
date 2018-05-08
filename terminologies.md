@@ -102,4 +102,6 @@
     "create" : "创建",
     "maintain" : "维护",
     "balance sheets" : "资产负债表",
-    "see also" : "另请参阅"
+    "see also" : "另请参阅",
+    "warning" : "警告",
+    "be aware that" : "请注意，"
