@@ -91,7 +91,7 @@
     "Multi-Signing" : "多签名",
     "stand-alone" : "独立的",
     "Developer Center" : "开发中心",
-    "" : "",
+    "for details about other aspects of rippled and the XRP Ledger" : "关于rippled和XRP分类账的其他方面的细节",
     "" : "",
     "" : "",
     "" : "",
