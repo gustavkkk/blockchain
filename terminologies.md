@@ -112,6 +112,6 @@
     "configuration" : "配置文件",
     "key" : "钥匙",
     "in response to" : "",
-    "" : "",
+    "further steps" : "进一步措施",
     "" : "",
     "" : "",
