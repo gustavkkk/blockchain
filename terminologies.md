@@ -109,5 +109,5 @@
     "withdraw XRP from an Exchange" : "从交易所上取出XRP",
     "In this example" : "在这个例子中",
     "balance" : "余额",
-    "" : "",
+    "configuration" : "配置文件",
     "" : ""
