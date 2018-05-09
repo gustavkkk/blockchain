@@ -105,3 +105,4 @@
     "see also" : "另请参阅",
     "warning" : "警告",
     "be aware that" : "请注意，"
+    "member keys" : "成员密钥",
