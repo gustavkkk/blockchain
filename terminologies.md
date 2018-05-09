@@ -110,4 +110,4 @@
     "In this example" : "在这个例子中",
     "balance" : "余额",
     "configuration" : "配置文件",
-    "" : ""
+    "key" : "钥匙",
