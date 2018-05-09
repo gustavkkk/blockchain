@@ -107,4 +107,4 @@
     "be aware that" : "请注意，"
     "member keys" : "成员密钥",
     "withdraw XRP from an Exchange" : "从交易所上取出XRP",
-    "" : ""
+    "In this example" : "在这个例子中"
