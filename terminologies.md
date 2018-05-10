@@ -126,6 +126,10 @@
     "between Alpha Exchange's cold wallet and its hot wallet" : "阿尔法交易所的冷钱包和热钱包之间",
     "The following table" : "下表",
     "demonstrates" : "显示",
+    "is set to" : "被设置为",
+    "In particular," : "特别是,",
+    "check" : "检查",
+    "look up" : "查找",
     "" : "",
     "" : "",
-    "" : "",
+    "" : ""
