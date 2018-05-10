@@ -116,7 +116,7 @@
     "instructions" : "指示",
     "deduct" : "扣除",
     "repository" : "存储库",
-    "" : "",
+    "holdings" : "持股",
     "" : "",
     "" : "",
     "" : "",
