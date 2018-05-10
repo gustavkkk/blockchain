@@ -121,8 +121,8 @@
     "consume" : "消耗",
     "aggregate balance" : "总余额",
     "The aggregate, on-ledger balance" : "分类账上的总余额",
-    "always" : "应是,一直",
-    "" : "",
+    "always" : "应是,一直",
+    "be enough to" : "足以",
     "" : "",
     "" : "",
     "" : ""
