@@ -129,7 +129,7 @@
     "is set to" : "被设置为",
     "In particular," : "特别是,",
     "check" : "检查",
-    "look up" : "查找",
-    "" : "",
-    "" : "",
+    "look up" : "查找",
+    "wait" : "等待",
+    "You might need to" : "则可能需要",
     "" : ""
