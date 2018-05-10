@@ -123,6 +123,6 @@
     "The aggregate, on-ledger balance" : "分类账上的总余额",
     "always" : "应是,一直",
     "be enough to" : "足以",
-    "" : "",
-    "" : "",
-    "" : ""
+    "between Alpha Exchange's cold wallet and its hot wallet" : "阿尔法交易所的冷钱包和热钱包之间",
+    "" : "",
+    "" : ""
