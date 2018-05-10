@@ -114,4 +114,11 @@
     "in response to Charlie’s instructions" : "作为对查理的指示的回应",
     "further steps" : "进一步措施",
     "instructions" : "指示",
+    "deduct" : "扣除",
+    "repository" : "存储库",
     "" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
