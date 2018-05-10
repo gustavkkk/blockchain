@@ -116,9 +116,9 @@
     "instructions" : "指示",
     "deduct" : "扣除",
     "repository" : "存储库",
-    "holdings" : "持股",
-    "adjustment" : "调整",
-    "consume" : "消耗",
-    "" : "",
-    "" : "",
-    "" : ""
+    "holdings" : "持股",
+    "adjustment" : "调整",
+    "consume" : "消耗",
+    "aggregate balance" : "总余额",
+    "The aggregate, on-ledger balance" : "分类账上的总余额",
+    "always" : "应是,一直"
