@@ -125,4 +125,7 @@
     "be enough to" : "足以",
     "between Alpha Exchange's cold wallet and its hot wallet" : "阿尔法交易所的冷钱包和热钱包之间",
     "The following table" : "下表",
-    "demonstrates" : "显示",
+    "demonstrates" : "显示",
+    "" : "",
+    "" : "",
+    "" : "",
