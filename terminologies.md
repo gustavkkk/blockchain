@@ -117,8 +117,8 @@
     "deduct" : "扣除",
     "repository" : "存储库",
     "holdings" : "持股",
-    "" : "",
-    "" : "",
+    "adjustment" : "调整",
+    "consume" : "消耗",
     "" : "",
     "" : "",
     "" : ""
