@@ -160,6 +160,6 @@
     "partial payments" : "部分款项",
     "optionally" : "有选择地",
     "You can configure your address to allow any combination of the three methods to authorize transactions" : "您可以配置您的地址，以允许三种方法的任何组合来授权交易",
-    "" : "",
-    "" : "",
+    "must" : "必须",
+    "should" : "应该",
     "" : ""
