@@ -156,6 +156,6 @@
     "for illustrative purposes, " : "为了便于说明",
     "specialize in" : "专注于",
     "specifically" : "具体来说",
-    "" : "",
+    "XRP with other currencies, such as BTC, USD, among others" : "XRP与其他货币，如BTC、USD等",
     "" : "",
     "" : ""
