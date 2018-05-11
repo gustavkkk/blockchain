@@ -140,3 +140,6 @@
     "credit-based balances" : "基于信用的余额",
     "keep track of" : "跟踪",
     "its new balance sheet" : "其新资产负债表",
+    "hold" : "持有",
+    "to trade currencies issued by gateways" : "以交换由网关发行的货币",
+    "the distributed exchange built into the XRP Ledger" : "内置在XRP分类账中的分布式交易所"
