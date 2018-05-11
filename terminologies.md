@@ -162,4 +162,10 @@
     "You can configure your address to allow any combination of the three methods to authorize transactions" : "您可以配置您的地址，以允许三种方法的任何组合来授权交易",
     "must" : "必须",
     "should" : "应该",
+    "send" : "发送",
+    "set up" : "设置",
+    "list" : "列表，目录",
+    "have mutli-signing enabled" : "启用多签名",
+    "peer-to-peer" : "对等",
+    "" : "",
     "" : ""
