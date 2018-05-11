@@ -132,4 +132,11 @@
     "look up" : "查找",
     "wait" : "等待",
     "You might need to" : "则可能需要",
+    "decrease" : "减少",
+    "be debited" : "被借记",
+    "be credited" : "被记入贷方",
+    "be reversed" : "是反向的",
+    "" : "",
+    "" : "",
+    "" : "",
     "" : ""
