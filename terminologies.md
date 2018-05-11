@@ -155,7 +155,7 @@
     "the prerequisites required of an exchange" : "交易所所需的衔接条件",
     "for illustrative purposes, " : "为了便于说明",
     "specialize in" : "专注于",
-    "" : "",
+    "specifically" : "具体来说",
     "" : "",
     "" : "",
     "" : ""
