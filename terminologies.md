@@ -146,5 +146,7 @@
     "lifecycle" : "生命周期",
     "deposit" : "存款",
     "Flow of Funds" : "资金流动",
-    "" : "",
+    "identifier" : "标识符",
+    "in this case, 789" : "在本例中为789",
+    "this is called" : "这被称为",
     "" : ""
