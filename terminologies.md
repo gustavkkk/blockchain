@@ -173,5 +173,5 @@
     "drop" : "滴",
     "since 2016-06-27" : "自2016年6月27日以来",
     "To force the multi-signing feature to be enabled, add the following stanza to your rippled.cfg" : "要强制启用多签名功能，请将以下状态添加到您的rippled.cfg",
-    "" : "",
+    "Listing XRP as an Exchange" : "列出XRP为交易所",
     "" : "",
