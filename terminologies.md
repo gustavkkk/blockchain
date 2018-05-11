@@ -149,4 +149,4 @@
     "identifier" : "标识符",
     "in this case, 789" : "在本例中为789",
     "this is called" : "这被称为",
-    "" : ""
+    "be controlled by Charlie" : "是由Charlie控制的"
