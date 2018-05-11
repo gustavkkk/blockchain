@@ -170,5 +170,5 @@
     "is stored in" : "存储在",
     "you must create a list of addresses that can contribute to a multi-signature for your address" : "您必须创建一个地址列表，该列表可以为您的地址提供多个签名",
     "This list is stored in the XRP Ledger as a SignerList node" : "这个列表存储在XRP分类器中，作为一个SignerList节点",
-    "" : "",
+    "drop" : "滴",
     "" : ""
