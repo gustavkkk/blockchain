@@ -167,5 +167,9 @@
     "list" : "列表，目录",
     "have mutli-signing enabled" : "启用多签名",
     "peer-to-peer" : "对等",
+    "is stored in" : "存储在",
+    "you must create a list of addresses that can contribute to a multi-signature for your address" : "您必须创建一个地址列表，该列表可以为您的地址提供多个签名",
+    "" : "",
+    "" : "",
     "" : "",
     "" : ""
