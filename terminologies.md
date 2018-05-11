@@ -158,4 +158,4 @@
     "specifically" : "具体来说",
     "XRP with other currencies, such as BTC, USD, among others" : "XRP与其他货币，如BTC、USD等",
     "partial payments" : "部分款项",
-    "" : ""
+    "optionally" : "有选择地"
