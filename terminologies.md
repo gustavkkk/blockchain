@@ -138,5 +138,5 @@
     "be reversed" : "是反向的",
     "like Charlie" : "像查理",
     "credit-based balances" : "基于信用的余额",
-    "" : "",
-    "" : ""
+    "keep track of" : "跟踪",
+    "its new balance sheet" : "其新资产负债表",
