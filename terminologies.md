@@ -158,4 +158,8 @@
     "specifically" : "具体来说",
     "XRP with other currencies, such as BTC, USD, among others" : "XRP与其他货币，如BTC、USD等",
     "partial payments" : "部分款项",
-    "optionally" : "有选择地"
+    "optionally" : "有选择地",
+    "You can configure your address to allow any combination of the three methods to authorize transactions" : "您可以配置您的地址，以允许三种方法的任何组合来授权交易",
+    "" : "",
+    "" : "",
+    "" : ""
