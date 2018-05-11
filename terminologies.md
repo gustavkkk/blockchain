@@ -172,6 +172,6 @@
     "This list is stored in the XRP Ledger as a SignerList node" : "这个列表存储在XRP分类器中，作为一个SignerList节点",
     "drop" : "滴",
     "since 2016-06-27" : "自2016年6月27日以来",
-    "" : "",
+    "To force the multi-signing feature to be enabled, add the following stanza to your rippled.cfg" : "要强制启用多签名功能，请将以下状态添加到您的rippled.cfg",
     "" : "",
     "" : "",
