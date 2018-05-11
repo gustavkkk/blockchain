@@ -153,5 +153,5 @@
     "The remaining sections" : "剩下的部分",
     "this list" : "这列表",
     "the prerequisites required of an exchange" : "交易所所需的衔接条件",
-    "" : "",
+    "For illustrative purposes, " : "为了便于说明",
     "" : "",
