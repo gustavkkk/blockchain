@@ -136,7 +136,7 @@
     "be debited" : "被借记",
     "be credited" : "被记入贷方",
     "be reversed" : "是反向的",
-    "" : "",
-    "" : "",
+    "like Charlie" : "像查理",
+    "credit-based balances" : "基于信用的余额",
     "" : "",
     "" : ""
