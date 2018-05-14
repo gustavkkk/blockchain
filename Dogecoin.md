@@ -12,6 +12,28 @@
     sudo apt-get install libqrencode-dev
     
    - [berkeley-db5.1](https://github.com/dogecoin/dogecoin/blob/master/doc/build-unix.md#berkeley-db)
+   
+    BITCOIN_ROOT=$(pwd)
+
+    # Pick some path to install BDB to, here we create a directory within the dogecoin directory
+    BDB_PREFIX="${BITCOIN_ROOT}/db5"
+    mkdir -p $BDB_PREFIX
+
+    # Fetch the source and verify that it is not tampered with
+    wget 'http://download.oracle.com/berkeley-db/db-5.1.29.NC.tar.gz'
+    echo '08238e59736d1aacdd47cfb8e68684c695516c37f4fbe1b8267dde58dc3a576c db-5.1.29.NC.tar.gz' | sha256sum -c
+    # -> db-5.1.29.NC.tar.gz: OK
+    tar -xzvf db-5.1.29.NC.tar.gz
+
+    # Build the library and install to our prefix
+    cd db-5.1.29.NC/build_unix/
+    #  Note: Do a static build so that it can be embedded into the executable, instead of having to find a .so at runtime
+    ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
+    make install
+
+# Configure Dogecoin Core to use our own-built instance of BDB
+cd $BITCOIN_ROOT
+./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
     
     ./autogen.sh
     ./configure
