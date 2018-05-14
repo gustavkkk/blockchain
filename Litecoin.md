@@ -24,3 +24,6 @@
       litecoin-cli getnewaddress kevin
       litecoin-cli listaccounts
 
+### Fake LTC
+
+   [litecointools](http://testnet.litecointools.com/)
