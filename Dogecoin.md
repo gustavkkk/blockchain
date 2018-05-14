@@ -9,3 +9,5 @@
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -rpcuser=xxxx -rpcpassword=xxxx -rpcport=xxxx -testnet -daemon -gen -genproclimit=1
 
 # TestNet
+
+   - [balance](https://chain.so/testnet/doge)
