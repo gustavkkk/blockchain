@@ -2,7 +2,14 @@
 
 ### Wiki
 
-# [MINING](https://www.reddit.com/r/dogecoin/comments/3hbon4/how_to_run_a_dogecoin_testnet_node_its_easier/)
+### [Build on Unix](https://github.com/dogecoin/dogecoin/blob/master/doc/build-unix.md)
+
+    ./autogen.sh
+    ./configure
+    make
+    make install # optional
+
+### [MINING](https://www.reddit.com/r/dogecoin/comments/3hbon4/how_to_run_a_dogecoin_testnet_node_its_easier/)
 
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -gen
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -testnet -daemon -gen
