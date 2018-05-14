@@ -31,9 +31,9 @@
     ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
     make install
 
-# Configure Dogecoin Core to use our own-built instance of BDB
-cd $BITCOIN_ROOT
-./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
+    # Configure Dogecoin Core to use our own-built instance of BDB
+    cd $BITCOIN_ROOT
+    ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
     
     ./autogen.sh
     ./configure
