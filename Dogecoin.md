@@ -46,6 +46,7 @@
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -gen
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -testnet -daemon -gen
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -rpcuser=xxxx -rpcpassword=xxxx -rpcport=xxxx -testnet -daemon -gen -genproclimit=1
+    $ dogecoin-qt -testnet -gen -genproclimit=1
 
 # TestNet
 
