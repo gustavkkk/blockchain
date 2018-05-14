@@ -103,6 +103,13 @@
     bitcoin-test getnewaddress frank
     bitcoin-test listaccounts
     
+### [Get Free TestNet Coins](https://www.quora.com/How-do-I-get-free-Bitcoin-testnet-coins)
+
+    [testnet.coinfaucet.eu](https://testnet.coinfaucet.eu/en/)
+    
+    [testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet)
+
+    
     
     
     
