@@ -5,6 +5,6 @@
 # MINING
 
     $ dogecoind -datadir=/home/ubuntu/dogecoind/data -gen
-    $ dogecoind -datadir=/home/ubuntu/dogecoind/data -testnet -gen
+    $ dogecoind -datadir=/home/ubuntu/dogecoind/data -testnet -daemon -gen
 
 # TestNet
