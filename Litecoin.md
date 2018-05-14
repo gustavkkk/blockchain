@@ -26,4 +26,4 @@
 
 ### Fake LTC
 
-   [litecointools](http://testnet.litecointools.com/)
+   - [litecointools](http://testnet.litecointools.com/)
