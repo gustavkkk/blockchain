@@ -17,3 +17,10 @@
 
 ### [Ref]()
 
+### TEST-CLI
+
+      litecoin-cli listaccounts
+      litecoin-cli getnewaddress frank
+      litecoin-cli getnewaddress kevin
+      litecoin-cli listaccounts
+
