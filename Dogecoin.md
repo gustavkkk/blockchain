@@ -11,6 +11,9 @@
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
     sudo apt-get install libqrencode-dev
     
+    $ git clone https://github.com/dogecoin/dogecoin
+    $ cd dogecoin 
+    
     [berkeley-db5.1](https://github.com/dogecoin/dogecoin/blob/master/doc/build-unix.md#berkeley-db)
    
     DOGECOIN_ROOT=$(pwd)
