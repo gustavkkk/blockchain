@@ -32,14 +32,13 @@
     #  Note: Do a static build so that it can be embedded into the executable, instead of having to find a .so at runtime
     ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
     make install
-    
-    # Configure Dogecoin Core to use our own-built instance of BDB
-    cd $DOGECOIN_ROOT
-    ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
-    
+       
     #build
     #./autogen.sh
     #./configure
+    # Configure Dogecoin Core to use our own-built instance of BDB
+    cd $DOGECOIN_ROOT
+    ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
     make
     make install # optional
     
