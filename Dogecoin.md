@@ -34,7 +34,7 @@
     make install
     
     # Configure Dogecoin Core to use our own-built instance of BDB
-    cd $BITCOIN_ROOT
+    cd $DOGECOIN_ROOT
     ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
     
     #build
