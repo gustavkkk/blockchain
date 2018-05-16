@@ -31,3 +31,10 @@
 ### Fake LTC
 
    - [litecointools](http://testnet.litecointools.com/)
+   
+### TEST CMDs
+
+      127.0.0.1:9000/ltc/listaccounts?minconf=
+      127.0.0.1:9000/ltc/getaccountaddress?account=jack
+      127.0.0.1:9000/ltc/getbalance?account=jackkkkkkkkkkkkk
+      127.0.0.1:9000/ltc/sendfrom?fromaccount=xxx&toaddress=xxxx&amount=5
