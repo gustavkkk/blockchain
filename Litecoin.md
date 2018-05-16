@@ -38,3 +38,4 @@
       127.0.0.1:9000/ltc/getaccountaddress?account=jack
       127.0.0.1:9000/ltc/getbalance?account=jackkkkkkkkkkkkk
       127.0.0.1:9000/ltc/sendfrom?fromaccount=xxx&toaddress=xxxx&amount=5
+      127.0.0.1:9000/ltc/gettransaction?txid=c988d579509a7493a609aafabb8832477fb0736a83902fa2f6ca15bfd34ef564
