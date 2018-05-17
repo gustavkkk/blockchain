@@ -176,7 +176,7 @@
     "Listing XRP as an Exchange" : "列出XRP为交易所",
     "idempotency" : "幂等",
     "layered on top of the application framework" : "顶端的应用程序代码中",
-    "" : "",
+    "During normal operation," : "在正常运行期间k ,",
     "" : "",
     "" : "",
     "" : "",
