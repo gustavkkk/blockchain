@@ -175,7 +175,7 @@
     "To force the multi-signing feature to be enabled, add the following stanza to your rippled.cfg" : "要强制启用多签名功能，请将以下状态添加到您的rippled.cfg",
     "Listing XRP as an Exchange" : "列出XRP为交易所",
     "idempotency" : "幂等",
-    "" : "",
+    "layered on top of the application framework" : "顶端的应用程序代码中",
     "" : "",
     "" : "",
     "" : "",
