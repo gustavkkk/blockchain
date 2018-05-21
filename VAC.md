@@ -4,7 +4,8 @@
         $ ./vacd -a --start --rpc
   - real mode(default)
   
-        $ ./vacd --start --rpc
+        #$ ./vacd --start --rpc
+        $ ./vacd --start
 ### Test
 
   - Test Accounts
