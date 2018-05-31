@@ -8,4 +8,4 @@
 
 # Thanks
 
-  Thanks for my workmates of lockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,LTD. I was not alone with them. I hope some of you will find out the worth of this repo and use it well for future work.
+  Thanks for my workmates of Blockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,LTD. I was not alone with them. I hope some of you will find out the worth of this repo and use it well for future work.
