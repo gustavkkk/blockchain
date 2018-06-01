@@ -4,7 +4,7 @@
 
 # Brainstorming/Sharing Ideas
 
-  I wrote my ideas/opinions on blockchain. Crictizm is always welcome.
+  I wrote my ideas/opinions here. Crictizm is always welcome.
 
 # Thanks
 
