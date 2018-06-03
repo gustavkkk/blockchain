@@ -1,6 +1,6 @@
 Possibilites
 
     1. Exchange-manual trade like huopipro.com
-    2. Trade-programic, auto trading like IQ option
+    2. Trade-programmatic, auto trading like IQ option
     3. DApp Development-like ...
     4. Cryptography-like ethereum...
