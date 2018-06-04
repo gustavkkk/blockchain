@@ -6,6 +6,6 @@
 
   I wrote my ideas/opinions here. Crictizm is always welcome.
 
-# Thanks
+# Acknowledgments
 
   Thanks to my workmates of Blockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,LTD. I was not alone with them. I hope some of them will find out the worth of this repo and use it well for their future work.
