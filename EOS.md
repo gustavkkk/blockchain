@@ -17,3 +17,10 @@
 
 ### [Install-Using-Docker](https://github.com/EOSIO/eos/blob/master/Docker/README.md)
 
+      $ git clone https://github.com/EOSIO/eos.git --recursive  --depth 1
+      $ cd eos/Docker
+      $ docker build . -t eosio/eos
+      specific version
+      $ docker build -t eosio/eos:v1.0.1 --build-arg branch=v1.0.1 .
+      $ docker build -t eosio/eos --build-arg symbol=<symbol> .
+
