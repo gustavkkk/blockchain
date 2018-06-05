@@ -15,6 +15,14 @@
       $ cd eos
       $ ./eosio_build.sh
       $ ~/opt/mongodb/bin/mongod -f ~/opt/mongodb/mongod.conf &
+      $ cd build
+      $ make test
+      $ cd build
+      $ sudo make install
+      
+      run
+      $ cd build/programs/nodeos
+      $ ./nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin 
 
 ### [Install-Using-Docker](https://github.com/EOSIO/eos/blob/master/Docker/README.md)
 
