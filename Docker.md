@@ -16,10 +16,11 @@
        stable"
     $ sudo apt-get update
     $ sudo apt-get install docker-ce
-    #$ apt-cache madison docker-ce
-    #docker-ce | 18.03.0~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
-    #$ sudo apt-get install docker-ce=<VERSION>
-    #$ sudo docker run hello-world
+    Install specific version
+    $ apt-cache madison docker-ce
+    docker-ce | 18.03.0~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+    $ sudo apt-get install docker-ce=<VERSION>
+    $ sudo docker run hello-world
     
     Install from a package
     $ sudo apt-get install docker-ce=<VERSION>
