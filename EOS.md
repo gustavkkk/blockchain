@@ -14,6 +14,7 @@
       $ git submodule update --init --recursive
       $ cd eos
       $ ./eosio_build.sh
+      $ ~/opt/mongodb/bin/mongod -f ~/opt/mongodb/mongod.conf &
 
 ### [Install-Using-Docker](https://github.com/EOSIO/eos/blob/master/Docker/README.md)
 
