@@ -11,6 +11,7 @@
 ### Install
 
       $ git clone https://github.com/EOSIO/eos
+      $ git submodule update --init --recursive
       $ cd eos
       $ ./eosio_build.sh
 
