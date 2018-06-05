@@ -8,7 +8,7 @@
 
 ### [Guide](https://github.com/EOSIO/eos/wiki)
 
-### Install
+### [Install](https://github.com/EOSIO/eos/wiki/Local-Environment#2-building-eosio)
 
       $ git clone https://github.com/EOSIO/eos
       $ git submodule update --init --recursive
