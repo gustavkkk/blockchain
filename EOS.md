@@ -17,7 +17,6 @@
       $ ~/opt/mongodb/bin/mongod -f ~/opt/mongodb/mongod.conf &
       $ cd build
       $ make test
-      $ cd build
       $ sudo make install
       
       run
