@@ -31,7 +31,20 @@
     $ sudo apt-get purge docker-ce
     $ sudo rm -rf /var/lib/docker
 
-### [docker-compose](https://docs.docker.com/compose/)
+### [docker-compose](https://docs.docker.com/compose/)-install(https://docs.docker.com/compose/install/)
+
+    install
+    $ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+    $ sudo chmod +x /usr/local/bin/docker-compose
+    $ docker-compose --version
+    
+    upgrade
+    $ docker-compose migrate-to-labels
+    $ docker container rm -f -v myapp_web_1 myapp_db_1 ...
+    
+    uninstall
+    $ sudo rm /usr/local/bin/docker-compose
+    $ pip uninstall docker-compose
 
 ### Usages
 
