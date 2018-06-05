@@ -7,3 +7,11 @@
 ### [Documentation](https://github.com/EOSIO/Documentation)
 
 ### [Guide](https://github.com/EOSIO/eos/wiki)
+
+### Install
+
+      $ git clone https://github.com/EOSIO/eos
+      $ cd eos
+      $ ./eosio_build.sh
+
+###
