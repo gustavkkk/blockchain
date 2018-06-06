@@ -52,6 +52,7 @@
 
     $ docker --version
     $ docker info
+    $ docker image ls
     $ docker container --help
     $ docker container ls --all
     $ docker run
