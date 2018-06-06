@@ -50,4 +50,5 @@
 
 ### Usages
 
+    $ docker 
 ###
