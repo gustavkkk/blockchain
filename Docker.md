@@ -50,5 +50,8 @@
 
 ### Usages
 
-    $ docker 
+    $ docker --version
+    $ docker info
+    $ docker container ls -all
+    $ docker run
 ###
