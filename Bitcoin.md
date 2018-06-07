@@ -33,6 +33,10 @@
     sudo apt-get install openssl
     sudo apt-get install libssl-dev
     sudo apt-get install libevent-dev
+    sudo apt-get install autoconf
+    sudo apt install git
+    git clone https://github.com/bitcoin/bitcoin
+    cd bitcoin
     ./autogen.sh
     ./configure
     make
