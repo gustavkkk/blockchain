@@ -4,10 +4,11 @@
 
 ### Levels
 
-    1. Application L2(Smart Contract,EOS,DApp)
-    2. Application L1(Transaction,Fee, Pending)
-    3. Algorithms(p2p algorithm, security)
-    4. Datastructure(Blockchain)
+    Application L2(Smart Contract,EOS,DApp)
+    Application L1(Transaction,Fee, Pending)
+    Algorithms(Consensus, security)
+    P2P Network Layer
+    Datastructure(Blockchain)
   
 ### Transaction,Fee, Pending
 
