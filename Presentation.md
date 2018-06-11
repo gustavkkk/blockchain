@@ -19,8 +19,10 @@
     Blockchain: 
         1. Communication
         2. Trust
-        3. 
+        3. Safe, Steady, 
     AI:
         1. Brain
         2. Autonomous
         3. 
+    Application:
+        1. 
