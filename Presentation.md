@@ -16,5 +16,11 @@
 ### AI+Blockchain
 
     
-    Blockchain:
+    Blockchain: 
+        1. Communication
+        2. Trust
+        3. 
     AI:
+        1. Brain
+        2. Autonomous
+        3. 
