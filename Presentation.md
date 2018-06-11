@@ -20,6 +20,7 @@
         1. Communication
         2. Trust
         3. Safe, Steady, 
+        4. Network, Group(Plural, not Single)
     AI:
         1. Brain
         2. Autonomous
