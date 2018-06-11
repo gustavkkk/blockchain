@@ -21,6 +21,11 @@
         3. Decision
         4. Entity
         
+        ex:
+        1. drone
+        2. autonomous mobile
+        3. robot system(cleaning,...)
+        
     Blockchain: 
         1. Communication
         2. Trust
