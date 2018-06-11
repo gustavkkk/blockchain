@@ -19,6 +19,7 @@
         1. Brain
         2. Autonomous, Smart
         3. Decision
+        4. Entity
         
     Blockchain: 
         1. Communication
