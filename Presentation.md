@@ -29,7 +29,7 @@
     Blockchain: Communication between Machines
         1. Communication
         2. Trust
-        3. Safe, Steady, 
+        3. Safety, Stability against attacks 
         4. Network, Group(Plural, not Single)
 
     Application:
