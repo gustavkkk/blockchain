@@ -15,6 +15,8 @@
 
 ### AI + Blockchain
 
+    Background: AI Expert, Blockchain Expert
+    
     AI: Machine's Brain
         1. Brain
         2. Autonomous, Smart
