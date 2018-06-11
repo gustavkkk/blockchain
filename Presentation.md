@@ -13,7 +13,7 @@
     - 
     
 
-### AI+Blockchain
+### AI + Blockchain
 
     AI: Machine's Brain
         1. Brain
