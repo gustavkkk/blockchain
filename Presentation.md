@@ -26,6 +26,9 @@
         2. autonomous mobile
         3. robot system(cleaning,...)
         
+        trend:
+        1. Individual to System(not just entity)
+        
     Blockchain: Communication between Machines
         1. Communication
         2. Trust
