@@ -36,4 +36,5 @@
         4. Network, Group(Plural, not Single)
 
     Application:
-        1. 
+        1. to make it possible to build a trustable communication between machines. in other words, to prevent from being attacked
+        2.
