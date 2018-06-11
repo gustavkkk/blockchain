@@ -26,7 +26,7 @@
         2. autonomous mobile
         3. robot system(cleaning,...)
         
-    Blockchain: 
+    Blockchain: Communication between Machines
         1. Communication
         2. Trust
         3. Safe, Steady, 
