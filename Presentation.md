@@ -21,20 +21,24 @@
         3. Decision
         4. Entity
         
-        ex:
+        Ex:
         1. drone
         2. autonomous mobile
         3. robot system(cleaning,...)
         
-        trend:
+        Trend:
         1. Individual to System(not just entity)
         
     Blockchain: Communication between Machines
-        1. Communication
+        1. Communication/Contract
         2. Trust
         3. Safety, Stability against attacks 
         4. Network, Group(Plural, not Single)
 
+        Trend:
+        1.
+        2.
+        
     Application:
         1. to make it possible to build a trustable communication between machines. in other words, to prevent from being attacked
         2.
