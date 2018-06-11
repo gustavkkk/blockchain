@@ -15,15 +15,16 @@
 
 ### AI+Blockchain
 
-    
+    AI: Machine's Brain
+        1. Brain
+        2. Autonomous, Smart
+        3. Decision
+        
     Blockchain: 
         1. Communication
         2. Trust
         3. Safe, Steady, 
         4. Network, Group(Plural, not Single)
-    AI:
-        1. Brain
-        2. Autonomous
-        3. 
+
     Application:
         1. 
