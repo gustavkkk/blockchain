@@ -1,4 +1,6 @@
-### [Organization](https://github.com/EOSIO)
+### [wikipedia](https://en.wikipedia.org/wiki/EOS.IO)
+
+### [Github](https://github.com/EOSIO)
 
    - [eos](https://github.com/EOSIO/eos)
    
