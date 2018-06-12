@@ -4,4 +4,6 @@
 
 ### [wallet](https://getmonero.org/downloads/)
 
-### [daemon](https://getmonero.org/resources/developer-guides/daemon-rpc.html)
+### [daemon-rpc](https://getmonero.org/resources/developer-guides/daemon-rpc.html)
+
+### [wallet-rpc](https://getmonero.org/resources/developer-guides/wallet-rpc.html)
