@@ -6,4 +6,4 @@
 
 ### [Tether API](http://platform.tether.to/)
 
-### [Usage](http://8btc.com/thread-77344-1-13.html)
+### [Usage](https://www.cryptocompare.com/coins/guides/what-is-usdt-and-how-to-use-it/)
