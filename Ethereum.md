@@ -58,9 +58,9 @@
     $ sudo apt-get update
     $ sudo apt-get install ethereum
     #$ sudo apt-get install ethereum-unstable
-    $ apt-get install geth
-    $ make geth
-    $ make all
+    #$ apt-get install geth
+    #$ make geth
+    #$ make all
     
   latest
   
