@@ -14,6 +14,9 @@
 
 ### [Installation](https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/doc/build-unix.md#to-build)
 
+     $ sudo add-apt-repository ppa:bitcoin/bitcoin
+     $ sudo apt-get update
+     $ sudo apt-get install libdb4.8-dev libdb4.8++-dev
      $ sudo apt-get install libdb++-de
      $ git clone https://github.com/Bitcoin-ABC/bitcoin-abc
      $ cd bitcoin-abc
