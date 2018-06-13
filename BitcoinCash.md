@@ -15,3 +15,7 @@
 ### [Installation](https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/doc/build-unix.md#to-build)
 
      $ sudo apt-get install libdb++-de
+     $ git clone https://github.com/Bitcoin-ABC/bitcoin-abc
+     $ cd bitcoin-abc
+     $ ./autogen.sh
+     $ ./configure
