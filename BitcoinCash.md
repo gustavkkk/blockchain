@@ -27,6 +27,11 @@
      $ ./configure
      
      bitcoinunlimited-pass(https://www.bitcoinunlimited.info/download)
+     $ sudo apt-get install software-properties-common
+     $ sudo add-apt-repository ppa:bitcoin-unlimited/bu-ppa
+     $ sudo apt-get update
+     $ sudo apt-get install bitcoind bitcoin-qt
+     build
      $ sudo apt-get install git build-essential libtool autotools-dev automake pkg-config
      $ sudo apt-get install libssl-dev libevent-dev bsdmainutils libboost-all-dev
      $ sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler libqrencode-dev #opt: only needed if you want bitcoin-qt
