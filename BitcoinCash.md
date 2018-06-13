@@ -4,7 +4,11 @@
      
 
      bitcoin vs. bitcoin cash
+     transactions per second: 2.5~3 -->
      blocksize: 1MB-->8MB
+     
+     bitcoin core vs. bitcoin unlimited
+     
 
 ### [website](https://www.bitcoincash.org/)
 
