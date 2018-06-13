@@ -54,6 +54,10 @@
   [go](https://geth.ethereum.org/install/)
   
     $ sudo apt-get install golang
+    $ sudo add-apt-repository -y ppa:ethereum/ethereum
+    $ sudo apt-get update
+    $ sudo apt-get install ethereum
+    #$ sudo apt-get install ethereum-unstable
     $ apt-get install geth
     $ make geth
     $ make all
