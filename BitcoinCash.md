@@ -1,6 +1,10 @@
 ### [Concept](https://en.wikipedia.org/wiki/Bitcoin_Cash)
 
-     BlockSize: 1MB-->8MB
+     hard-coding
+     
+
+     bitcoin vs. bitcoin cash
+     blocksize: 1MB-->8MB
 
 ### [website](https://www.bitcoincash.org/)
 
