@@ -20,6 +20,7 @@
    Ubuntu
    
     sudo apt-get install libdb++-dev
+    sudo apt install libdb5.3++
     sudo apt-get install software-properties-common
     sudo add-apt-repository ppa:bitcoin/bitcoin
     #sudo apt install bitcoind bitcoin-qt
