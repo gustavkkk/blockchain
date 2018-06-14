@@ -1,4 +1,4 @@
-### Blochain, Cryptography Exchange, Ripple
+### Blockchain, Cryptocurrency Exchange, Ripple
 
     Main Topics: 
         1. what I did & what it is in short?
@@ -17,7 +17,7 @@
 
     Background: AI Expert, Blockchain Expert
     
-    AI: Machine's Brain
+    AI: Machine with Brain
         1. Brain
         2. Autonomous, Smart
         3. Decision
@@ -44,3 +44,7 @@
     Application:
         1. to make it possible to build a trustable communication between machines. in other words, to prevent from being attacked
         2.
+        
+### Bitcoin and BitcoinCash
+
+    
