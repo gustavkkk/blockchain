@@ -35,6 +35,10 @@
      $ ./configure
      
      bitcoinunlimited-pass(https://www.bitcoinunlimited.info/download)
+     $ tar xvf BUcash-1.2.0.0-linux64.tar.gz
+     $ cd BUcash-1.2.0/bin/
+     $ nohup ./bitcoin-qt &
+     install
      $ sudo apt-get install software-properties-common
      $ sudo add-apt-repository ppa:bitcoin-unlimited/bu-ppa
      $ sudo apt-get update
