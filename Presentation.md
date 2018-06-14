@@ -47,4 +47,6 @@
         
 ### Bitcoin and BitcoinCash
 
-    
+    Maximum BlockSize
+    bitcoin:1MB
+    bitcoincash:8M
