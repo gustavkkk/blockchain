@@ -49,7 +49,11 @@
 
     Maximum BlockSize
     bitcoin:1MB
-    bitcoincash:8M
+    bitcash:8M
     
     Fork not Revise
     block 478558 (August 1st, 2017 about 13:16 UTC)
+    
+    transactions per second
+    bitcoin:3s
+    bitcash:
