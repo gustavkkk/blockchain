@@ -2,6 +2,8 @@
 
 ### Wiki
 
+### [Release](https://github.com/dogecoin/dogecoin/releases)
+
 ### [Build on Unix](https://github.com/dogecoin/dogecoin/blob/master/doc/build-unix.md)
 
     sudo apt-get install software-properties-common
