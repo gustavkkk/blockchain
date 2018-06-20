@@ -32,10 +32,14 @@
     #  Note: Do a static build so that it can be embedded into the executable, instead of having to find a .so at runtime
     ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
     make install
-       
+
+    # configure: error: libdb_cxx headers missing, Dogecoin Core requires this library for wallet functionality
+    $ sudo apt-get install libdb++-dev
+    $ sudo apt install libdb5.3++
+    # configure: error: Found Berkeley DB other than 5.1, required for portable wallets 
+    
+    
     #build
-    #./autogen.sh
-    #./configure
     # Configure Dogecoin Core to use our own-built instance of BDB
     cd $DOGECOIN_ROOT
     ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
