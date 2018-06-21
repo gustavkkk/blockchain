@@ -15,6 +15,8 @@
 
 ### [rpc](https://en.bitcoin.it/wiki/API_reference_%28JSON-RPC%29)
 
+### [releases](https://github.com/bitcoin/bitcoin/releases)
+
 ### build
 
    Ubuntu
