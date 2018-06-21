@@ -59,3 +59,6 @@
      $ ./configure
      $ make
      $ sudo make install
+     
+### [fakemoney](https://testnet.manu.backend.hamburg/bitcoin-cash-faucet)     
+    
