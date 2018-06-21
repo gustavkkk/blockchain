@@ -86,11 +86,13 @@
     
 ### Start RPC Service
 
-    geth --rpc
-    geth --rpc --rpcaddr 127.0.0.1 --rpcport 8454
-    geth --rpc --exec "personal.unlockAccount(eth.accounts[0], \password\", 3600)"
-    geth --rpc --unlock 0x5d5e5432fd7dc5ab048e92b9e373713c1164650d --password password.txt
-    geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal"  --rpc
+    #geth --rpc
+    #geth --rpc --rpcaddr 127.0.0.1 --rpcport 8454
+    #geth --rpc --exec "personal.unlockAccount(eth.accounts[0], \password\", 3600)"
+    #geth --rpc --unlock 0x5d5e5432fd7dc5ab048e92b9e373713c1164650d --password password.txt
+    #geth  --rpcaddr localhost --rpcport 8545 --rpcapi "eth,net,web3,personal"  --rpc
+    geth --rpcapi eth,web3,personal --rpcport 18600 --port 18601 -testnet --rpc
+    geth --rpcapi eth,web3,personal --rpcport 8600 --port 8601 --rpc
     
 ### Test
 
