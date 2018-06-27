@@ -6,6 +6,7 @@
     BGP(Byzantine General Problem)
     BFT(Byzantine Fault Tolerance)
     ICO(Initial Coin Offering)
+    IPO(Initial Public Offering)
     
     bitcoin
     timestamp server
