@@ -3,8 +3,8 @@
     double spending
     hard coding vs soft coding
     hard fork vs soft fork
-    BGP(Byzantian General Problem)
-    BFT(Byzantian Fault Tolerance)
+    BGP(Byzantine General Problem)
+    BFT(Byzantine Fault Tolerance)
     
     bitcoin
     timestamp server
