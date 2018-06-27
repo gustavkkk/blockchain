@@ -7,6 +7,7 @@
     BFT(Byzantine Fault Tolerance)
     ICO(Initial Coin Offering)
     IPO(Initial Public Offering)
+    whitepaper
     
     bitcoin
     timestamp server
