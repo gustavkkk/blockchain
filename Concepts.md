@@ -5,6 +5,7 @@
     hard fork vs soft fork
     BGP(Byzantine General Problem)
     BFT(Byzantine Fault Tolerance)
+    ICO(Initial Coin Offering)
     
     bitcoin
     timestamp server
