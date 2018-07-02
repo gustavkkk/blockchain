@@ -18,6 +18,7 @@
     sudo mkdir /var/run/mysqld
     sudo chown mysql: /var/run/mysqld
     sudo mysqld_safe --skip-grant-tables --skip-networking &
+    mysql -u root
     FLUSH PRIVILEGES;
     # For MySQL 5.7.6 and newer
     ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
