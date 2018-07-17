@@ -60,9 +60,9 @@
    
     [Create Image/Container](https://www.techrepublic.com/article/how-to-create-a-docker-image-and-push-it-to-docker-hub/)
     docker pull ubuntu
-    docker run --name hello-world -it ubuntu:latest bash
+    docker run --name lamp-server -it ubuntu:latest bash
     apt-get update
-    apt-get install hello-world^
+    apt-get install lamp-server^
 
     Access Hub
     $ docker login
