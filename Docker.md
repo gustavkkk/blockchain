@@ -48,7 +48,7 @@
     $ sudo rm /usr/local/bin/docker-compose
     $ pip uninstall docker-compose
 
-### Usages
+### Usages-Basics
 
     $ docker --version
     $ docker info
@@ -56,4 +56,14 @@
     $ docker container --help
     $ docker container ls --all
     $ docker run
-###
+### [Usages](https://github.com/wsargent/docker-cheat-sheet)
+   
+    Create Image/Container
+    docker pull ubuntu
+    docker run --name hello-world -it ubuntu:latest bash
+    apt-get update
+    apt-get install hello-world^
+
+    Access Hub
+    $ docker login
+    $ docker logout
