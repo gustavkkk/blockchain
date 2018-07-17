@@ -59,13 +59,13 @@
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
    
     [Create Image/Container](https://www.techrepublic.com/article/how-to-create-a-docker-image-and-push-it-to-docker-hub/)
-    docker pull ubuntu
-    docker run --name test-lamp-server -it ubuntu:latest bash
-    apt-get update
-    apt-get install lamp-server^
-    docker commit -m "Added LAMP Server" -a "NAME" test-lamp-server frank0125/test-lamp-server:latest
+    ubuntu$ docker pull ubuntu
+    ubuntu$ docker run --name test-lamp-server -it ubuntu:latest bash
+    root$ apt-get update
+    root$ apt-get install lamp-server^
+    ubuntu$ docker commit -m "Added LAMP Server" -a "NAME" test-lamp-server frank0125/test-lamp-server:latest
 
     Access Hub
-    $ docker login
-    $ docker push frank0125/test-lamp-server
-    $ docker logout
+    ubuntu$ docker login
+    ubuntu$ docker push frank0125/test-lamp-server
+    ubuntu$ docker logout
