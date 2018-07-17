@@ -63,8 +63,9 @@
     docker run --name test-lamp-server -it ubuntu:latest bash
     apt-get update
     apt-get install lamp-server^
+    docker commit -m "Added LAMP Server" -a "NAME" test-lamp-server frank0125/test-lamp-server:latest
 
     Access Hub
     $ docker login
-    $ docker push frank-0125/test-lamp-server
+    $ docker push frank0125/test-lamp-server
     $ docker logout
