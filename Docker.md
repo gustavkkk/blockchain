@@ -60,10 +60,11 @@
    
     [Create Image/Container](https://www.techrepublic.com/article/how-to-create-a-docker-image-and-push-it-to-docker-hub/)
     docker pull ubuntu
-    docker run --name lamp-server -it ubuntu:latest bash
+    docker run --name test-lamp-server -it ubuntu:latest bash
     apt-get update
     apt-get install lamp-server^
 
     Access Hub
     $ docker login
+    $ docker push frank-0125/test-lamp-server
     $ docker logout
