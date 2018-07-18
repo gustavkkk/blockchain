@@ -57,14 +57,18 @@
     $ docker container ls --all
     $ docker run
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
+    LifeCycle
    
-    [Create-Image/Container](https://www.techrepublic.com/article/how-to-create-a-docker-image-and-push-it-to-docker-hub/)
+    [Status]
+    sudo docker stats --all
+   
+    [Create-Ex](https://www.techrepublic.com/article/how-to-create-a-docker-image-and-push-it-to-docker-hub/)
     ubuntu$ docker pull ubuntu
     ubuntu$ docker run --name test-lamp-server -it ubuntu:latest bash
     root$ apt-get update
     root$ apt-get install lamp-server^
     ubuntu$ docker commit -m "Added LAMP Server" -a "NAME" test-lamp-server frank0125/test-lamp-server:latest
-
+    
     [Access Hub/Upload Image]
     ubuntu$ docker login
     ubuntu$ docker push frank0125/test-lamp-server
