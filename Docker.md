@@ -81,6 +81,10 @@
     root$ apt-get install lamp-server^
     ubuntu$ docker commit -m "Added LAMP Server" -a "NAME" test-lamp-server frank0125/test-lamp-server:latest
     
+    [PULL & PUSH]
+    ubuntu$ docker pull ubuntu
+    ubuntu$ docker push frank0125/test-lamp-server
+    
     [Access Hub/Upload Image]
     ubuntu$ docker login
     ubuntu$ docker push frank0125/test-lamp-server
