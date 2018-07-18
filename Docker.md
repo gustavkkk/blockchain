@@ -60,7 +60,8 @@
 ### [Commands](https://docs.docker.com/engine/reference/commandline/docker/)
 
 ### [Differenciate]
-    Container vs Image
+    [Container vs Image](https://github.com/wsargent/docker-cheat-sheet#difference-between-loading-a-saved-image-and-importing-an-exported-container-as-an-image)
+    
 
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
     LifeCycle
