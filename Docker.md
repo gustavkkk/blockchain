@@ -97,3 +97,7 @@
     ubuntu$ docker exec -it ubuntu_bash pwd
     ubuntu$ docker exec -it -w /root ubuntu_bash pwd
     ubuntu$ sudo docker exec ubuntu_bash ls
+    
+    [Load & Save]
+    ubuntu$ docker save ubuntu > ubuntu.tar.gz
+    ubuntu$ docker load < ubuntu.tar.gz
