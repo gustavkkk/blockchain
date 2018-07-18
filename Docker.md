@@ -61,6 +61,7 @@
 
 ### [Differenciate]
     [Container vs Image](https://github.com/wsargent/docker-cheat-sheet#difference-between-loading-a-saved-image-and-importing-an-exported-container-as-an-image)
+    include history or not
     
 
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
@@ -102,7 +103,11 @@
     [Load & Save]
     ubuntu$ docker save ubuntu > ubuntu.tar.gz
     ubuntu$ docker load < ubuntu.tar.gz
-
+    
+    [Import & Export]
+    ubuntu$ cat my_container.tar.gz | docker import - my_image:my_tag
+    ubuntu$ docker export my_container | gzip > my_container.tar.gz
+    
     [Start & Stop]
     start,stop,restart,pause,unpause,wait,kill,attach
     ubuntu$ sudo docker start test-lamp-server
