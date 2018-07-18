@@ -1,5 +1,6 @@
 ### [Get Started](https://docs.docker.com/get-started/#containers-and-virtual-machines)
-
+    [Guide](http://sssslide.com/www.slideshare.net/larrycai/learn-docker-in-90-minutes)
+    
 ### [Documentation](https://docs.docker.com/)
 
 ### [Install-Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
