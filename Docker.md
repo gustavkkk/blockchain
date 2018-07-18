@@ -101,3 +101,9 @@
     [Load & Save]
     ubuntu$ docker save ubuntu > ubuntu.tar.gz
     ubuntu$ docker load < ubuntu.tar.gz
+
+    [Start & Stop]
+    start,stop,restart,pause,unpause,wait,kill,attach
+    ubuntu$ sudo docker start test-lamp-server
+    ubuntu$ sudo docker exec test-lamp-server ls
+    ubuntu$ sudo docker stop test-lamp-server
