@@ -89,6 +89,7 @@
     ubuntu$ docker run
     
     [Execute](https://docs.docker.com/engine/reference/commandline/exec/#extended-description)
+    ubuntu$ docker run -i -t ubuntu /bin/bash
     ubuntu$ docker run --name ubuntu_bash --rm -i -t ubuntu bash
     ubuntu$ docker exec -d ubuntu_bash touch /tmp/execWorks
     ubuntu$ docker exec -it ubuntu_bash bash
