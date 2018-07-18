@@ -87,3 +87,12 @@
     [Run-Image]
     ubuntu$ docker images
     ubuntu$ docker run
+    
+    [Execute](https://docs.docker.com/engine/reference/commandline/exec/#extended-description)
+    ubuntu$ docker run --name ubuntu_bash --rm -i -t ubuntu bash
+    ubuntu$ docker exec -d ubuntu_bash touch /tmp/execWorks
+    ubuntu$ docker exec -it ubuntu_bash bash
+    ubuntu$ docker exec -it -e VAR=1 ubuntu_bash bash
+    ubuntu$ docker exec -it ubuntu_bash pwd
+    ubuntu$ docker exec -it -w /root ubuntu_bash pwd
+    ubuntu$ sudo docker exec ubuntu_bash ls
