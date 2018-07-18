@@ -59,11 +59,18 @@
 
 ### [Commands](https://docs.docker.com/engine/reference/commandline/docker/)
 
+### [Differenciate]
+    Container vs Image
+
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
     LifeCycle
    
     [Status]
+    container
     sudo docker stats --all
+    sudo docker ps
+    image
+    sudo docker images
    
     [Create-Ex](https://www.techrepublic.com/article/how-to-create-a-docker-image-and-push-it-to-docker-hub/)
     ubuntu$ docker pull ubuntu
