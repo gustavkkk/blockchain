@@ -71,6 +71,7 @@
     run
     exec
     start
+    commit
     load/save
     import/export
     push
