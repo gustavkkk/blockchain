@@ -67,7 +67,14 @@
 
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
     LifeCycle
-   
+    pull
+    run
+    exec
+    start
+    load/save
+    import/export
+    push
+    
     [Status]
     container
     sudo docker stats --all
