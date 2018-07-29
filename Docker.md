@@ -129,3 +129,4 @@
 
 ### Case for Exchange
     sudo docker pull ubuntu:16.04
+    sudo docker run --name exchange-server -it ubuntu:16.04 bash
