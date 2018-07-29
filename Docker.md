@@ -132,3 +132,12 @@
     ubuntu@ sudo docker run --name exchange-server -it ubuntu:16.04 bash
     root@ apt update
     ubuntu$ sudo docker commit -m "Added Exchange Server" -a "NAME" exchange-server frank0125/exchange-server:latest
+    
+    run
+    ubuntu@ sudo docker run -it frank0125/exchange-server bash
+    
+    start & stop
+    ubuntu@ sudo docker start exchange-server
+    ubuntu@ sudo docker ps
+    ubuntu@ sudo docker stop exchange-server
+    ubuntu@ sudo docker ps
