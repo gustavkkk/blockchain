@@ -63,8 +63,10 @@
 ### [Differenciate]
     [Container vs Image](https://github.com/wsargent/docker-cheat-sheet#difference-between-loading-a-saved-image-and-importing-an-exported-container-as-an-image)
     include history or not
+    [Run & Start]
+    Run: Create & Start
+    Start: Just Start
     
-
 ### [Usages](https://github.com/wsargent/docker-cheat-sheet)
     LifeCycle
     pull
