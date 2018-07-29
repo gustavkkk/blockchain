@@ -13,3 +13,5 @@
     $ export GOROOT=/usr/local/go
     $ export GOPATH=$HOME/Projects/Proj1
     $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+    
+### [Hello-world](https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04#step-1-%E2%80%94-installing-go)
