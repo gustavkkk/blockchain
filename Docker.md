@@ -126,3 +126,6 @@
     ubuntu$ sudo docker start test-lamp-server
     ubuntu$ sudo docker exec test-lamp-server ls
     ubuntu$ sudo docker stop test-lamp-server
+
+### Case for Exchange
+    sudo docker pull ubuntu:16.04
