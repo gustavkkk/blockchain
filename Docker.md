@@ -128,5 +128,7 @@
     ubuntu$ sudo docker stop test-lamp-server
 
 ### Case for Exchange
-    sudo docker pull ubuntu:16.04
-    sudo docker run --name exchange-server -it ubuntu:16.04 bash
+    ubuntu@ sudo docker pull ubuntu:16.04
+    ubuntu@ sudo docker run --name exchange-server -it ubuntu:16.04 bash
+    root@ apt update
+    ubuntu$ sudo docker commit -m "Added Exchange Server" -a "NAME" exchange-server frank0125/exchange-server:latest
