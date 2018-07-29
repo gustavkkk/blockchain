@@ -126,7 +126,11 @@
     ubuntu$ sudo docker start test-lamp-server
     ubuntu$ sudo docker exec test-lamp-server ls
     ubuntu$ sudo docker stop test-lamp-server
-
+    
+    [COPY:host2guest,guest2host]
+    ubuntu$ sudo docker cp abc.txt test-lamp-server:/
+    ubuntu$ sudo docker cp test-lamp-server:/root/data/xyz.txt /tmp/xyz.txt
+    
 ### Case for Exchange
     initial
     ubuntu@ sudo docker pull ubuntu:16.04
