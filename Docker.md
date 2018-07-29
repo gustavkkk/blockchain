@@ -154,3 +154,6 @@
     root@ apt update
     root@ apt install python python-pip vim net-tools
     root@ apt-get install -y iputils-ping
+    
+    export & import
+    ubuntu@ sudo docker export exchange-server > exchange-container.tar.gz
