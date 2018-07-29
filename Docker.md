@@ -128,6 +128,7 @@
     ubuntu$ sudo docker stop test-lamp-server
 
 ### Case for Exchange
+    initial
     ubuntu@ sudo docker pull ubuntu:16.04
     ubuntu@ sudo docker run --name exchange-server -it ubuntu:16.04 bash
     root@ apt update
@@ -142,3 +143,7 @@
     ubuntu@ sudo docker exec -it exchange-server bash
     ubuntu@ sudo docker stop exchange-server
     ubuntu@ sudo docker ps
+
+    install pkgs
+    root@ apt update
+    root@ apt install python python-pip vim net-tools
