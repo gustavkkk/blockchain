@@ -23,6 +23,8 @@
    
    - [VAAC](https://etherscan.io/address/0x80d09da032f4293b1f1295274509cb76c2a5dc42#code)
    
-   - [CSC(https://etherscan.io/address/0xd6b39f6ec8926d44d234f028be2f89369404cb97#code)
+   - [CSC](https://etherscan.io/address/0xd6b39f6ec8926d44d234f028be2f89369404cb97#code)
    
    - [SMT](https://etherscan.io/address/0xd391c04a0995f956d1c3b4d2fd98931b27451a80#code)
+   
+   - [EOS](https://etherscan.io/address/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0#code)
