@@ -157,3 +157,9 @@
     
     export & import
     ubuntu@ sudo docker export exchange-server > exchange-container.tar.gz
+    
+    info
+    ubuntu@ sudo docker ps
+    ubuntu@ sudo docker container ls
+    ubuntu@ sudo docker images
+    
