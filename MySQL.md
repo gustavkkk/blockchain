@@ -26,3 +26,7 @@
     SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new_password');
     sudo kill `cat /var/run/mysqld/mysqld.pid`
     sudo systemctl start mysql
+
+    GRANT
+    FLUSH PRIVILEGES;
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'x.x.x.x' IDENTIFIED BY 'root'  WITH GRANT OPTION;
