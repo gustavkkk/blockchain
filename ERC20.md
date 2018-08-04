@@ -16,6 +16,8 @@
 ### Check
       https://etherscan.io/token/0x80d09da032f4293b1f1295274509cb76c2a5dc42
       https://etherscan.io/address/0x80d09da032f4293b1f1295274509cb76c2a5dc42#code
+      https://etherscan.io/token/0x755442e8df80221348a73771e87017f4838b19a4?a=0xb943eb4030be0543db6acb17a03682e08754e7e1
+      
 
 ### Contracts
 
@@ -28,3 +30,10 @@
    - [SMT](https://etherscan.io/address/0xd391c04a0995f956d1c3b4d2fd98931b27451a80#code)
    
    - [EOS](https://etherscan.io/address/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0#code)
+   
+   - [NLC](https://etherscan.io/address/0x755442e8df80221348a73771e87017f4838b19a4#code)
+   
+   - [CFC](https://etherscan.io/address/0x8360c91b02e60e4c1db4e2d298e2f2c441d1aca4#code)
+   
+   - [FTC](https://etherscan.io/address/0x5d89b1a3b62f845f3dd67f6ae9c6f423bec7bcae#code)
+
