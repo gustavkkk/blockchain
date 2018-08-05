@@ -38,7 +38,7 @@
     
     $ cat /proc/sys/fs/file-max
     
-    $ ps -ef | grep foobar
+    $ ps -ef | grep python
     1234
     $ prlimit --nofile --output RESOURCE,SOFT,HARD --pid 1234
     $ prlimit --nofile=500000 --pid=1234
