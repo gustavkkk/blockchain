@@ -28,5 +28,8 @@
     sudo systemctl start mysql
 
     GRANT
-    FLUSH PRIVILEGES;
-    GRANT ALL PRIVILEGES ON *.* TO 'root'@'x.x.x.x' IDENTIFIED BY 'root'  WITH GRANT OPTION;
+    $ mysqladmin variables | grep socket
+    > FLUSH PRIVILEGES;
+    > GRANT ALL PRIVILEGES ON *.* TO 'root'@'x.x.x.x' IDENTIFIED BY 'root'  WITH GRANT OPTION;
+    > show grants for test@localhost
+
