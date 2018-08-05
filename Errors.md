@@ -1,7 +1,7 @@
 ### [IOError: [Errno 24] Too many open files](https://medium.com/hbsmith/too-many-open-files-%EC%97%90%EB%9F%AC-%EB%8C%80%EC%9D%91%EB%B2%95-9b388aea4d4e)
 
     $ ulimit -a
-    $ unlimit -n 50000
+    $ ulimit -n 500000
     
     /etc/sysctl.conf
     net.core.somaxconn=131072
