@@ -29,6 +29,7 @@
 
     GRANT
     $ mysqladmin -u root -p password
+    # password is to be typed literally. It's a command. You don't have to substitute password with your actual password.
     $ mysqladmin variables | grep socket
     > FLUSH PRIVILEGES;
     > GRANT ALL PRIVILEGES ON *.* TO 'root'@'x.x.x.x' IDENTIFIED BY 'root'  WITH GRANT OPTION;
