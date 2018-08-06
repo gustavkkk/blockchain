@@ -34,4 +34,7 @@
     > FLUSH PRIVILEGES;
     > GRANT ALL PRIVILEGES ON *.* TO 'root'@'x.x.x.x' IDENTIFIED BY 'root'  WITH GRANT OPTION;
     > show grants for test@localhost
+    
+    Dump
+    mysqldump -h [server] -u [user] -p[password] db1 | mysql -h [server] -u [user] -p[password] db2
 
