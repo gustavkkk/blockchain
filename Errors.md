@@ -13,9 +13,9 @@
       
     $ sudo sysctl -p
     
-    # sudo cat /etc/sysctl.conf
-    #net.core.somaxconn=131072
-    #fs.file-max=131072
+    #$ sudo cat /etc/sysctl.conf
+    net.core.somaxconn=131072
+    fs.file-max=131072
     
     #/usr/include/linux/limits.h
     #NR_OPEN = 65536
@@ -24,7 +24,7 @@
     #$ supervisorctl restart all
     
     #$ vi /etc/sysctl.conf
-    #fs.file-max = 100000   
+    fs.file-max = 100000   
     
     $ ps -ef | grep python
     1234
