@@ -8,4 +8,4 @@
 
 ### [api-yapi](https://github.com/YMFE/yapi)
 
-### [zentao](http://www.zentao.net/)
+### [project-zentao](http://www.zentao.net/)
