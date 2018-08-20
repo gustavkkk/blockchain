@@ -4,4 +4,4 @@
 
 # Acknowledgments
 
-  Thanks to my workmates of Blockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,Ltd. I was not alone with them. I hope this repository will be helpful for public.
+  Thanks to my workmates of Blockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,Ltd.
