@@ -18,7 +18,10 @@
     4.pending?
     5.ledger
     
-### Questions
+### Objects/Concepts
 
-    1.
+    1. Transaction
+    2. Block
+    3. 
+    
   
