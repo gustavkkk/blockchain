@@ -3,7 +3,7 @@
   This repository is for blockchain developers,especially for cryptocurrency exchange developers. It covers how to install cryptocurrency daemons/wallet, how to test them. And It also contains problems what I encountered while developing cryptocurrency exchange.
 
 # What is Blockchain?
-   - [From awesome-blockchains](https://github.com/openblockchains/awesome-blockchains)
+   [From awesome-blockchains](https://github.com/openblockchains/awesome-blockchains)
    
    ![known](https://github.com/openblockchains/awesome-blockchains/blob/master/i/blockchain-jesus.png)
    
