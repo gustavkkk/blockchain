@@ -9,7 +9,7 @@
    
    [51% attack](https://steemit.com/kr-join/@jsralph/51)
    
-   ![known](https://github.com/openblockchains/awesome-blockchains/blob/master/i/double-spending.png)
+   ![known](https://github.com/gustavkkk/blockchain/blob/master/double-spending.png)
    
    Most concise explanation of blockchain I have ever read
   - [Let's Build the Tiniest Blockchain In Less Than 50 Lines of Python (Part 1), July 2016](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
