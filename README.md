@@ -1,12 +1,16 @@
 # What is this repository for?
 
-  - picture tells more + blockchain concepts
-  - experience + blockchain
+  - Blockchain Concepts
+  - Blockchain Practice
     * Bitcoin
     * BitcoinCash
     * Dogecoin
     * Litecoin
     * Ethereum
+    * ERC20
+    * Jingtum
+    * Ripple
+    
 # What is Blockchain?
    [what the hell is blockchain?](https://github.com/openblockchains/awesome-blockchains)
    
