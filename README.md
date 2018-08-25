@@ -11,7 +11,7 @@
     * Jingtum
     * Ripple
     
-# What is Blockchain?
+# Picture Tells More
    [what the hell is blockchain?](https://github.com/openblockchains/awesome-blockchains)
    
    ![known](https://github.com/openblockchains/awesome-blockchains/blob/master/i/blockchain-jesus.png)
