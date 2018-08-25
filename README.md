@@ -1,7 +1,12 @@
 # What is this repository for?
 
-  This repository is for blockchain developers,especially for cryptocurrency exchange developers. It covers how to install cryptocurrency daemons/wallet, how to test them. And It also contains problems what I encountered while developing cryptocurrency exchange.
-
+  - picture tells more + blockchain concepts
+  - experience + blockchain
+    * Bitcoin
+    * BitcoinCash
+    * Dogecoin
+    * Litecoin
+    * Ethereum
 # What is Blockchain?
    [what the hell is blockchain?](https://github.com/openblockchains/awesome-blockchains)
    
