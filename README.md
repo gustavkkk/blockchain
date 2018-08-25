@@ -2,8 +2,8 @@
 
   - Blockchain Concepts
   Most concise explanation of blockchain I have ever read
-  - [Let's Build the Tiniest Blockchain In Less Than 50 Lines of Python (Part 1), July 2016](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
-  - [Let's Make the Tiniest Blockchain Bigger With More Lines of Python (Part 2), July 2016](https://medium.com/crypto-currently/lets-make-the-tiniest-blockchain-bigger-ac360a328f4d)
+    * [Let's Build the Tiniest Blockchain In Less Than 50 Lines of Python (Part 1), July 2016](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
+    * [Let's Make the Tiniest Blockchain Bigger With More Lines of Python (Part 2), July 2016](https://medium.com/crypto-currently/lets-make-the-tiniest-blockchain-bigger-ac360a328f4d)
   - Blockchain Practice
     * Bitcoin
     * BitcoinCash
