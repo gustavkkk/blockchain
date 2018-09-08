@@ -1,4 +1,4 @@
-# It's actually very simple.
+# It's Just Very Simple.
 
   - Blockchain Concepts
   Most concise explanation of blockchain I have ever read
