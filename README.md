@@ -1,4 +1,4 @@
-# What is this repository for?
+# It's actually very simple.
 
   - Blockchain Concepts
   Most concise explanation of blockchain I have ever read
