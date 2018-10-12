@@ -23,6 +23,10 @@
    
    ![known](https://github.com/gustavkkk/blockchain/blob/master/double-spending.png)
    
+   [speedup-sharding](https://blog.n@ber.com/PostView.nhn?blogId=tech-plus&logNo=221369561396&proxyReferer=&proxyReferer=https%3A%2F%2Fblog.n@ber.com%2Ftech-plus%2F221369561396)
+   
+   ![known](https://github.com/gustavkkk/blockchain/blob/master/sharding.jpg)
+   
 # Acknowledgments
 
   I'd like to give thanks to my workmates of Blockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,Ltd.
