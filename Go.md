@@ -16,9 +16,13 @@
     sudo apt-get update
     sudo apt-get install golang-go
     
-    # environment variable
+#### environment variable
     $ export GOROOT=/usr/local/go
     $ export GOPATH=$HOME/Projects/Proj1
     $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-    
+
+### [tool installation](https://github.com/Microsoft/vscode-go/wiki/Go-tools-that-the-Go-extension-depends-on)
+    go get -u github.com/derekparker/delve/cmd/dlv
+    go get -u github.com/kisielk/errcheck
+
 ### [Hello-world](https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04#step-1-%E2%80%94-installing-go)
