@@ -23,9 +23,9 @@
    
    ![known](https://github.com/gustavkkk/blockchain/blob/master/PictureTellsMore/double-spending.png)
    
-   [speedup-sharding](https://github.com/gustavkkk/blockchain/blob/master/PictureTellsMore/sharding.png) [](https://blog.n@ber.com/PostView.nhn?blogId=tech-plus&logNo=221369561396&proxyReferer=&proxyReferer=https%3A%2F%2Fblog.n@ber.com%2Ftech-plus%2F221369561396)
+   [speedup-sharding](https://cointelegraph.com/news/how-sharding-based-blockchains-could-handle-more-transactions-than-visa) [](https://blog.n@ber.com/PostView.nhn?blogId=tech-plus&logNo=221369561396&proxyReferer=&proxyReferer=https%3A%2F%2Fblog.n@ber.com%2Ftech-plus%2F221369561396)
    
-   ![known](https://github.com/gustavkkk/blockchain/blob/master/sharding.jpg)
+   ![known](https://github.com/gustavkkk/blockchain/blob/master/PictureTellsMore/sharding.png)
    
 # Acknowledgments
 
