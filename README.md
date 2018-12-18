@@ -27,6 +27,3 @@
    
    ![known](https://github.com/gustavkkk/blockchain/blob/master/PictureTellsMore/sharding.jpg)
    
-# Acknowledgments
-
-  I'd like to give thanks to my workmates of Blockchain R&D Team, Shenzhen QianHai Bitspace Technology Co.,Ltd.
