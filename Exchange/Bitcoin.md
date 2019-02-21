@@ -57,6 +57,7 @@
     bitcoin-cli stop
 
 ### pyRPC
+    curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaccounts", "params": [6] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
 
     curl http://127.0.0.1:9090/btc/help
     curl http://127.0.0.1:9090/btc/getbalance -d "account=fun1"
