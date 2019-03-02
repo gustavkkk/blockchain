@@ -5,15 +5,10 @@
     no sign up discovered, 2019.03.02
 ### Keywords
     Bitcoin, Omni Layer Protocol, Omni Layer enabled wallet, Omni Wallet
-### Top Down 
-   omni protocol layer
-   - [spec](https://github.com/OmniLayer/spec)
-   - omnicore
+    
+### Analysis - Omni protocol layer
    * [x] [github](https://github.com/OmniLayer/omnicore)
-   - webwallets
-   * [ ] [Omni Wallet](https://www.cryptocompare.com/wallets/omniwallet/) - bad reputation
-   * [ ] [Holy Transaction](https://www.cryptocompare.com/wallets/holy-transaction-wallet/) - so,so
-### Botton Up
+   
 # [Test](https://www.jianshu.com/p/417c280b8f9f)
 ### omni.conf
     - realnet
