@@ -69,8 +69,9 @@
     $ ./omnicore-cli -testnet sendfrom "tabby" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01 6 "donation" "seans outpost"
     $ ./omnicore-cli -testnet sendfrom "" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01
     
-### [curl](https://blog.csdn.net/C_jian/article/details/85337467)    
-    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "omni_getbalance", "params": ["n1Axxy3WGwFci1GJffwdY55dRem92GKXAm", 1] }' -H 'content-type: text/plain;' http://127.0.0.1:18332/
-    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getnewaddress", "params": ["test"] }' -H 'content-type: text/plain;' http://127.0.0.1:18332/
+### [curl](https://blog.csdn.net/C_jian/article/details/85337467)
+    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaccounts", "params": [] }' -H 'content-type: text/plain;' http://0.0.0.0:18332/
+    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "omni_getbalance", "params": ["n1Axxy3WGwFci1GJffwdY55dRem92GKXAm", 1] }' -H 'content-type: text/plain;' http://0.0.0.0:18332/
+    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getnewaddress", "params": ["test"] }' -H 'content-type: text/plain;' http://0.0.0.0:18332/
     
 # [Reference](https://www.jianshu.com/p/bd573e2df746)
