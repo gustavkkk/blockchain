@@ -46,7 +46,7 @@
     $ ./omnicored -daemon -conf=/root/.bitcoin/bitcoin.conf -datadir=/data0
     
     - testnet
-    $ ./omnicored -conf=/root/.bitcoin/bitcoin-test.conf -datadir=/data2 -testnet
+    $ ./omnicored -daemon -conf=/root/.bitcoin/bitcoin-test.conf -datadir=/data2 -testnet
     
 ### test
     - realnet
