@@ -9,10 +9,9 @@
    omni protocol layer
    - [spec](https://github.com/OmniLayer/spec)
    - omnicore
-   * [github](https://github.com/OmniLayer/omnicore)
-   * [download](http://www.omnilayer.org/download.html)
+   * [x] [github](https://github.com/OmniLayer/omnicore)
    - webwallets
    * [ ] [Omni Wallet](https://www.cryptocompare.com/wallets/omniwallet/) - bad reputation
    * [ ] [Holy Transaction](https://www.cryptocompare.com/wallets/holy-transaction-wallet/) - so,so
 ### Botton Up
-# Test
+# [Test](https://www.jianshu.com/p/417c280b8f9f)
