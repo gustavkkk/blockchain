@@ -1,14 +1,20 @@
 
 [USDT is a cryptocurrency asset issued on the Bitcoin blockchain via the Omni Layer Protocol. Each USDT unit is backed by a U.S Dollar held in the reserves of the Tether Limited and can be redeemed through the Tether Platform. USDT can be transferred, stored, spent, just like bitcoins or any other cryptocurrency, users can transact and store tethers with any Omni Layer enabled wallet like Ambisafe, Holy Transaction or Omni Wallet.](https://www.cryptocompare.com/coins/guides/what-is-usdt-and-how-to-use-it/)
 
-# [USDT](https://tether.to) 
+# [Basic Info](https://tether.to) 
     no sign up discovered, 2019.03.02
 ### Keywords
     Bitcoin, Omni Layer Protocol, Omni Layer enabled wallet, Omni Wallet
     
 ### Analysis - Omni protocol layer
    * [x] [github](https://github.com/OmniLayer/omnicore)
-   
+
+### [Install](https://blog.csdn.net/C_jian/article/details/85337467)
+    wget https://github.com/OmniLayer/omnicore/releases/download/v0.3.1/omnicore-0.3.1-x86_64-linux-gnu.tar.gz
+    tar -zvxf omnicore-0.3.1-x86_64-linux-gnu.tar.gz 
+    sudo install -m 0755 -o root -g root -t /usr/local/bin ./omnicore-0.3.1/bin/*
+### [rpc api](https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md)    
+
 # [Test](https://www.jianshu.com/p/417c280b8f9f)
 ### omni.conf
     - realnet
@@ -27,8 +33,8 @@
     - testnet
     server=1  
     txindex=1 
-    rpcuser=btc
-    rpcpassword=btc2018
+    rpcuser=omni
+    rpcpassword=omni2018
     rpcallowip=0.0.0.0/0
     rpcport=18332
     rpcbind=0.0.0.0:18332
@@ -62,5 +68,9 @@
     $ ./omnicore-cli -testnet getbalance "mytest4"
     $ ./omnicore-cli -testnet sendfrom "tabby" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01 6 "donation" "seans outpost"
     $ ./omnicore-cli -testnet sendfrom "" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01
+    
+### [curl](https://blog.csdn.net/C_jian/article/details/85337467)    
+    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "omni_getbalance", "params": ["n1Axxy3WGwFci1GJffwdY55dRem92GKXAm", 1] }' -H 'content-type: text/plain;' http://127.0.0.1:18332/
+    $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getnewaddress", "params": ["test"] }' -H 'content-type: text/plain;' http://127.0.0.1:18332/
     
 # [Reference](https://www.jianshu.com/p/bd573e2df746)
