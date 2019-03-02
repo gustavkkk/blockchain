@@ -47,6 +47,8 @@
     omnidebug=pending
     
 ### [fake usdt](https://coinfaucet.eu/en/btc-testnet/)
+    通过sendFrom发送比特币到moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP地址，每发送1 BTC将获得100 OMNI和100 TOMNI。
+    
 ### start the daemon
     - realnet
     $ ./omnicored -daemon -conf=/root/.bitcoin/bitcoin.conf -datadir=/data0
