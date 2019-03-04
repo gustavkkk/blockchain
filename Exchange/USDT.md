@@ -48,6 +48,7 @@
     
 ### [fake usdt](https://lhalcyon.com/blockchain-usdt-node/)
     [fake btc](https://coinfaucet.eu/en/btc-testnet/)
+    [testnet btc](https://live.blockcypher.com/btc-testnet/tx/4f42c6aca564de7371d6c2903d3efdffa80afa9d5622917119ad91368e1c03cf/)
     通过sendFrom发送比特币到moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP地址，每发送1 BTC将获得100 OMNI和100 TOMNI。
     $ ./omnicore-cli -testnet sendtoaddress "moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP" 0.1
     
