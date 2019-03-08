@@ -53,7 +53,10 @@
     
     通过sendFrom发送比特币到moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP地址，每发送1 BTC将获得100 OMNI和100 TOMNI。
     $ ./omnicore-cli -testnet listaddressgroupings
-    $ ./omnicore-cli -testnet sendtoaddress "moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP" 0.1
+    $ ./omnicore-cli -testnet sendfrom "pluto" "moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP" 0.1
+    $ ./omnicore-cli -testnet listaccounts
+    $ ./omnicore-cli -testnet getaccountaddress "pluto"
+    $ ./omnicore-cli -testnet omni_getbalance "mtwEVo8FVJrMcms1GyzhbTUSafwDKvyjsq" 1
     
 ### start the daemon
     - realnet
@@ -62,20 +65,18 @@
     - testnet
     $ ./omnicored -daemon -conf=/root/.bitcoin/bitcoin-test.conf -datadir=/data2 -testnet
     
-### test
-    - realnet
-    $ ./omnicore-cli getnewaddress mytest
-    $ ./omnicore-cli getaddressesbyaccount "mytest"
-    $ ./omnicore-cli getbalance "mytest4"
-    $ ./omnicore-cli sendfrom "tabby" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01 6 "donation" "seans outpost"
-    $ ./omnicore-cli sendfrom "" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01
-    
-    - testnet
+### bitcoin
+    $ ./omnicore-cli -testnet getblockchaininfo
     $ ./omnicore-cli -testnet getnewaddress mytest
     $ ./omnicore-cli -testnet getaddressesbyaccount "mytest"
     $ ./omnicore-cli -testnet getbalance "mytest4"
     $ ./omnicore-cli -testnet sendfrom "tabby" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01 6 "donation" "seans outpost"
     $ ./omnicore-cli -testnet sendfrom "" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01
+### omni
+    $ ./omnicore-cli -testnet listaccounts
+    $ ./omnicore-cli -testnet omni_getbalance mtwEVo8FVJrMcms1GyzhbTUSafwDKvyjsq 1
+    $ ./omnicore-cli -testnet omni_send mqn2FFboeSKRHRWYcdMe7LupDX1QRzbHZp moURpc7XBZKYkXFRkyJxzvdwg3nisnW757 2 1.0
+    $ ./omnicore-cli -testnet omni_gettransaction a25260a79243a48df21ca2d9fba2209818ea1339026d91b6476d531929c52dad
     
 ### [curl](https://blog.csdn.net/C_jian/article/details/85337467)
     $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaccounts", "params": [] }' -H 'content-type: text/plain;' http://0.0.0.0:18332/
