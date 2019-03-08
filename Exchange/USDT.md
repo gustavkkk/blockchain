@@ -52,6 +52,7 @@
    - [testnet block](https://live.blockcypher.com/btc-testnet/)
     
     通过sendFrom发送比特币到moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP地址，每发送1 BTC将获得100 OMNI和100 TOMNI。
+    $ ./omnicore-cli -testnet listaddressgroupings
     $ ./omnicore-cli -testnet sendtoaddress "moneyqMan7uh8FqdCA2BV5yZ8qVrc9ikLP" 0.1
     
 ### start the daemon
