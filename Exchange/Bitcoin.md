@@ -58,6 +58,8 @@
 
 ### pyRPC
     curl --user btc:btc2018 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaccounts", "params": [6] }' -H 'content-type: text/plain;' http://192.168.10.199:8332/
+    curl --user btc:btc2018 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listunspent", "params": [0, 9999999, ["2N8jq3e7eBhrrd9d1dMNCvkwtsvN9md2Hmd"],true ] }' -H 'content-type: text/plain;' http://127.0.0.1:18332/
+
 
     curl http://127.0.0.1:9090/btc/help
     curl http://127.0.0.1:9090/btc/getbalance -d "account=fun1"
