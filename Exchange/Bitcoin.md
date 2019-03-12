@@ -55,6 +55,11 @@
     bitcoin-cli help | grep gettransaction
     bitcoin-cli gettransaction
     bitcoin-cli stop
+    
+    # encrypt
+    bitcoin-cli encryptwallet 123456
+    bitcoin-cli walletpassphrase 123456 120
+    bitcoin-cli dumprivkey 2N8jq3e7eBhrrd9d1dMNCvkwtsvN9md2Hmd
 
 ### pyRPC
     curl --user btc:btc2018 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaccounts", "params": [6] }' -H 'content-type: text/plain;' http://192.168.10.199:8332/
