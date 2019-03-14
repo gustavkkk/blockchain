@@ -72,11 +72,21 @@
     $ ./omnicore-cli -testnet getbalance "mytest4"
     $ ./omnicore-cli -testnet sendfrom "tabby" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01 6 "donation" "seans outpost"
     $ ./omnicore-cli -testnet sendfrom "" "1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd" 0.01
+    
 ### omni
     $ ./omnicore-cli -testnet listaccounts
     $ ./omnicore-cli -testnet omni_getbalance mtwEVo8FVJrMcms1GyzhbTUSafwDKvyjsq 1
     $ ./omnicore-cli -testnet omni_send mqn2FFboeSKRHRWYcdMe7LupDX1QRzbHZp moURpc7XBZKYkXFRkyJxzvdwg3nisnW757 2 1.0
     $ ./omnicore-cli -testnet omni_gettransaction a25260a79243a48df21ca2d9fba2209818ea1339026d91b6476d531929c52dad
+    
+### [cold wallet](https://blog.csdn.net/ffzhihua/article/details/80733124)
+    omni_createpayload_simplesend
+    createrawtransaction
+    omni_createrawtx_opreturn
+    omni_createrawtx_reference
+    omni_createrawtx_change
+    signrawtransaction
+    sendrawtransaction
     
 ### [curl](https://blog.csdn.net/C_jian/article/details/85337467)
     $ curl --user omni --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaccounts", "params": [] }' -H 'content-type: text/plain;' http://0.0.0.0:18332/
