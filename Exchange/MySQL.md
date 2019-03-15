@@ -12,6 +12,8 @@
     explain table_name;
     describe table_name;
     describe table_name column_name;
+    create table accounts(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, username varchar(50) NOT NULL, address varchar(100) NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+    insert into accounts (username,address) values ('xxxx','0x81c0e1f8e73b97c57c6fd952568457f4db316b72');
     
     password missing
     sudo systemctl stop mysql
