@@ -1,6 +1,6 @@
 ### CMDs
     Installation
-    $ sudo apt-get install mysql-server
+    $ sudo apt-get install mysql-server# yum install mysql-community-server
     $ pip install pymysql
     
     mysql -u root -p
