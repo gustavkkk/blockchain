@@ -33,7 +33,7 @@
     $ mysqladmin -u root -p password
     # password is to be typed literally. It's a command. You don't have to substitute password with your actual password.
     $ vim /etc/mysql/mysql.conf.d/mysqld.cnf
-    bind-address = x.x.x.x
+    bind-address = 0.0.0.0
     $ mysql -u root -p
     > FLUSH PRIVILEGES;
     > GRANT ALL PRIVILEGES ON *.* TO 'root'@'x.x.x.x' IDENTIFIED BY 'root'  WITH GRANT OPTION;
