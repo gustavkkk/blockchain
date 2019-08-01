@@ -1,1 +1,1 @@
-### [Code Stype](https://google.github.io/styleguide/cppguide.html)
+### [Coding Style](https://google.github.io/styleguide/cppguide.html)
