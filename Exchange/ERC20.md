@@ -6,7 +6,9 @@
    - [ERC20-Standard](https://en.bitcoinwiki.org/wiki/ERC20)
    - [Tokens](https://github.com/bokkypoobah/Tokens#fixed-supply-token)
    - [Mineable-Coin](https://lightrains.com/blogs/how-to-create-mineable-erc20-tokens)
-   
+   - [web3j](https://github.com/web3j/web3j)
+   - [solidity](https://github.com/ethereum/solidity)
+   - [truffle](https://github.com/trufflesuite/truffle)
 ### [Compile & Create](https://github.com/gustavkkk/blockchain/blob/master/Ethereum.md#contract)
       solc --bin example.sol
       compiled = '0x' +
