@@ -1,3 +1,5 @@
+- *Blockchain is just write-once & read-only distributed database, but not distributed legder. same database on each node.*
+- *Blockchain is just overhyped linked list.*
 # It's Just This Much Simple.
 
   - Blockchain Concepts
