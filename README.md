@@ -1,5 +1,7 @@
-- *Blockchain is just write-once & read-only distributed database, but not distributed legder. same database on each node.*
+- *Blockchain is just write-once & read-only distributed database, but not distributed ledger. same database on each node.*
 - *Blockchain is just overhyped linked list.*
+- *Society is based on belief while Blockchain creates belief in algorithm. We can't trade with strangers because we don't know them, we can't trust them. But Through Smart Contrasts on blockchain, we can trade with strangers. So Blockchain remove obstacles between strangers, stimulate & accelerate transactions.*
+- *Blockchain is a big progress towards democracy & idealism. Open/Transparent, Fair, Equal, Democracy*
 # It's Just This Much Simple.
 
   - Blockchain Concepts
